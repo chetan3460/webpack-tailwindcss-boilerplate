@@ -1,0 +1,182 @@
+@use "../abstracts/variables"as globVar;
+
+@use "../mixins/"as mix;
+
+
+.main-btn {
+    /* Btn Settings */
+    --_btn-background: var(--color-red);
+    --_btn-color: var(--color-white);
+    // --_btn_radius: #{mix.cl(80)};
+    // --_btn_blockpadding: #{mix.cl(25)};
+    // --_btn_inlinepadding: #{mix.cl(54)};
+    font-size: mix.rem(16);
+    border-radius: mix.rem(80);
+    padding: mix.rem(25) mix.rem(54);
+    --_btn_transitiontime: 0.4s;
+    --_btn_transitiontype: ease-out;
+    // --_btn_transitiontype: cubic-bezier(.22, 1, .36, 0.4);
+    --_btn-shadow: none;
+    --_btn-texttransform: uppercase;
+    // --_btn-fontsize: #{mix.cl(16)};
+    --_btn-lineheight: 19px;
+    --_btn-weight: 400;
+    // --_min-width: 120px;
+    letter-spacing: 0.48px;
+    text-decoration: none;
+    position: relative;
+
+
+
+
+
+    // @include mix.breakpoint(1440) {
+    //     --_btn-fontsize: #{mix.rem(16)};
+    //     --_btn_blockpadding: #{mix.rem(25)};
+    //     --_btn_inlinepadding: #{mix.rem(54)};
+    //     --_btn_radius: #{mix.rem(80)};
+    // }
+
+    // @include mix.breakpoint(767) {
+    //     --_btn_blockpadding: #{mix.rem(20)};
+    //     --_btn_inlinepadding: #{mix.rem(40)};
+    //     --_btn_radius: #{mix.rem(80)};
+    //     // --_min-width: 150px;
+    // }
+
+    /* Cosmetics */
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--_btn-background);
+    color: var(--_btn-color);
+    border: var(--_btn-border);
+    // min-width: var(--_min-width);
+    font-size: var(--_btn-fontsize);
+    line-height: var(--_btn-lineheight);
+    font-weight: var(--_btn-weight);
+    // border-radius: var(--_btn_radius);
+    // padding-inline: var(--_btn_inlinepadding);
+    // padding-block: var(--_btn_blockpadding);
+    text-transform: var(--_btn-texttransform);
+    transition: all var(--_btn_transitiontime) var(--_btn_transitiontype);
+
+    /* Hover,focus,active states */
+    @include mix.states {
+        --_btn-outline: 0 solid var(--color-red);
+        --_btn-color: var(--color-white);
+        --_btn-background: var(--color-red);
+
+    }
+
+    .btn-icon {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+
+        svg {
+            position: absolute;
+            // top: -11px;
+            right: 0rem;
+            opacity: 0;
+            top: -10px;
+            // transform: translateY(-50%);
+            transition: all 300ms ease-out;
+            will-change: right, opacity;
+        }
+
+
+
+    }
+
+    &:hover {
+        .btn-icon {
+            svg {
+                opacity: 1;
+                right: -23px;
+
+                @include mix.breakpoint(768) {
+                    right: -20px;
+                }
+
+            }
+        }
+
+        text-decoration: none;
+    }
+
+
+    /* Variations */
+    &--red {
+        background-color: var(--color-red);
+        color: var(--color-white);
+
+        &:hover {
+            color: var(--color-white);
+            background-color: var(--color-red);
+
+        }
+
+        &:active {
+            --_btn-color: var(--color-red);
+            --_btn-background: var(--color-red);
+        }
+    }
+
+    &--brown {
+        background-color: var(--color-brown);
+        color: var(--color-white);
+
+        &:hover {
+            color: var(--color-white);
+            background-color: var(--color-brown);
+
+        }
+
+        &:active {
+            --_btn-color: var(--color-brown);
+            --_btn-background: var(--color-brown);
+        }
+    }
+
+    &--white {
+        background-color: var(--color-white);
+        color: var(--color-blue);
+
+        @include mix.min-breakpoint(1200) {
+            &:hover {
+                background-color: var(--color-dark-brown);
+                color: var(--color-white);
+            }
+        }
+    }
+
+    &--bordered_black {
+        border: 1px solid var(--color-black);
+        color: var(--color-black);
+        background-color: transparent;
+        // font-size: mix.rem(16);
+
+        @include mix.min-breakpoint(1200) {
+            &:hover {
+                background-color: var(--color-blue);
+                border-color: var(--color-blue);
+                color: var(--color-white);
+            }
+        }
+    }
+
+    &--white_brown {
+        background-color: var(--color-white);
+        color: var(--color-dark-brown);
+        border: 1px solid transparent;
+
+        @include mix.min-breakpoint(1200) {
+            &:hover {
+                background-color: var(--color-dark-brown);
+                border-color: var(--color-white);
+                color: var(--color-white);
+            }
+        }
+    }
+}

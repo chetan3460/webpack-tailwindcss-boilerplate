@@ -1,0 +1,49 @@
+@use "../abstracts/variables"as globVar;
+@use "../mixins/"as mix;
+
+.item-img {
+    position: relative;
+
+    // .img-wrapper {
+    //     @include mix.aspect-ratio(406, 513);
+
+    // }
+
+    // .content {
+    //     position: relative;
+
+    //     .info-text {
+    //         max-height: 0px;
+    //         overflow: hidden;
+    //         transition: max-height 1s;
+
+    //         @include mix.breakpoint(991) {
+    //             max-height: fit-content;
+    //         }
+    //     }
+    // }
+
+    // &:hover {
+    //     .info-text {
+    //         max-height: 200px;
+
+    //     }
+
+    // }
+}
+
+// .img-wrapper1 {
+//     @include mix.aspect-ratio(679, 461);
+// }
+
+// .img-wrapper2 {
+//     @include mix.aspect-ratio(426, 320);
+// }
+
+// .img-wrapper3 {
+//     @include mix.aspect-ratio(509, 346);
+// }
+
+// .img-wrapper4 {
+//     @include mix.aspect-ratio(406, 513);
+// }

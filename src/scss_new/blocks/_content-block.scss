@@ -1,0 +1,30 @@
+@use "../abstracts/variables"as globVar;
+@use "../mixins/"as mix;
+
+// .content-block {
+//     &--title {
+//         // max-width: mix.rem(507);
+
+//      // @include mix.breakpoint(768) {
+//      //     max-width: unset;
+//      // }
+//     }
+
+//     &--content {
+//         // max-width: mix.rem(561);
+
+//         // @include mix.breakpoint(1024) {
+//         //     max-width: mix.rem(500);
+//         // }
+
+//         // @include mix.breakpoint(992) {
+//         //     max-width: unset;
+//         // }
+
+
+
+//         p {
+//             margin-bottom: 0;
+//         }
+//     }
+// }

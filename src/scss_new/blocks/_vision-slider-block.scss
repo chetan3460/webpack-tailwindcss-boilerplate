@@ -1,0 +1,13 @@
+@use "../abstracts/variables"as globVar;
+@use "../mixins/"as mix;
+
+.vision {
+    padding: 100px;
+
+    &--main-title {
+        sup {
+            font-size: mix.rem(30);
+            line-height: mix.rem(39);
+        }
+    }
+}

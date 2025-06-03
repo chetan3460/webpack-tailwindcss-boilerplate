@@ -1,0 +1,59 @@
+.custom-image {
+    width: calc(100% / 3 - 20px);
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blurred-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        animation: pulse 2.5s infinite;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 3;
+    }
+
+    img {
+
+        transition: opacity 250ms ease-in-out;
+        opacity: 0;
+    }
+
+    &.loaded {
+        &::before {
+            content: none;
+        }
+
+        img {
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

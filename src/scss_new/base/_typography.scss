@@ -1,0 +1,117 @@
+@use "../abstracts/variables"as globVar;
+@use "../mixins/"as mix;
+
+%block-margins {
+  margin: 1em 0;
+}
+
+%heading-margins {
+  margin: 1em 0 0.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: globVar.$heading-font;
+
+}
+
+/* headings */
+h1 {
+  font-size: mix.em(80);
+  font-weight: 400;
+
+  line-height: 96px;
+  letter-spacing: -0.8px;
+  text-transform: capitalize;
+  margin: 0;
+  @extend %heading-margins;
+
+  @include mix.breakpoint(992) {
+    font-size: mix.rem(40);
+    line-height: 44px;
+
+  }
+}
+
+h2 {
+  font-size: mix.rem(60);
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: -0.6px;
+  text-transform: capitalize;
+  margin: 0;
+
+  @extend %heading-margins;
+
+  @include mix.breakpoint(375) {
+    font-size: mix.rem(36);
+    line-height: 40px;
+    letter-spacing: -0.36px;
+
+  }
+}
+
+h3 {
+  font-size: mix.rem(46);
+  line-height: 50px;
+  letter-spacing: -0.46px;
+  text-transform: capitaliz e;
+  @extend %heading-margins;
+
+  @include mix.breakpoint(991.98) {
+    font-size: mix.rem(40);
+    line-height: 38px;
+    letter-spacing: -0.26px;
+    text-transform: capitalize;
+  }
+
+}
+
+h4 {
+  font-size: mix.em(32);
+  line-height: 47px;
+  text-transform: capitalize;
+  @extend %heading-margins;
+
+  @include mix.breakpoint(767) {
+    font-size: mix.em(28);
+    line-height: 36px;
+  }
+}
+
+h5 {
+  font-size: mix.em(26);
+  line-height: 1;
+  @extend %heading-margins;
+}
+
+h6 {
+  font-size: mix.em(18);
+  line-height: 1;
+  @extend %heading-margins;
+}
+
+// Others
+p,
+ul,
+ol,
+pre {
+  @extend %block-margins;
+}
+
+p {
+  font-size: mix.rem(20);
+  font-weight: 300;
+  color: inherit;
+  line-height: 30px;
+  margin: 0 0 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

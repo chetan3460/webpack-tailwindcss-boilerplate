@@ -1,0 +1,152 @@
+@use "../abstracts/variables"as globVar;
+@use "../mixins/"as mix;
+
+.mizzen-brand-listing-block {
+    padding-bottom: 0 !important;
+    color: var(--color-black);
+    // margin-bottom: - mix.rem(50);
+
+    @include mix.breakpoint(991) {
+        margin-bottom: 0;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: calc(100% - mix.rem(50));
+        width: 100%;
+        // z-index: ;
+        background-color: rgba($color: #000000, $alpha: 0.04);
+
+        @include mix.breakpoint(991) {
+            height: 100%;
+        }
+    }
+
+    @include mix.breakpoint(991) {
+        padding-bottom: 0 !important;
+    }
+
+    >.title {
+        width: 50%;
+
+        h2 {
+            color: inherit;
+            margin: 0;
+        }
+    }
+
+    .accordians {
+        top: - mix.rem(0);
+        width: 100%;
+
+        @include mix.breakpoint(1279) {
+            display: none !important;
+        }
+
+        .left {
+            width: 28.5%;
+            // height: 100%;
+         // //   display: flex;
+         // //   align-items: flex-end;
+         // min-height: clamp(mix.rem(600), mix.vw(600), mix.rem(700));
+            // @include mix.breakpoint(991) {
+       //     padding-top: mix.rem(900);
+       //     min-height: auto;
+       // }
+            .swiper {
+                // bottom: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+
+                .swiper-slide {
+                    .img-wrap {
+                        @include mix.aspect-ratio(341, 260);
+                    }
+
+                    transition: clip-path 1.9s cubic-bezier(0.22, 1, 0.36, 1);
+                    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+                    transition-delay: 1.9s;
+
+                    &.swiper-slide-active,
+                    &.swiper-slide-prev.swiper-slide-visible,
+                    &.swiper-slide-next.swiper-slide-visible {
+                        // transition: clip-path 5s cubic-bezier(0.84, 0, 0.16, 1);
+                        transition: clip-path 2s cubic-bezier(0.22, 1, 0.36, 1);
+                        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+                        transition-delay: 0s;
+                    }
+
+                    &.swiper-slide-prev:not(.swiper-slide-visible) {
+                        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+                        transition-delay: 0s;
+                    }
+
+                    &.swiper-slide-next:not(.swiper-slide-visible) {
+                        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+                        transition-delay: 0s;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 47.5%;
+
+            .accordian {
+                // max-width: clamp(mix.rem(552), mix.vw(552), mix.vw(552));
+                // margin-inline-start: 0;
+                // margin-inline-end: auto;
+            }
+        }
+    }
+}
+
+.accordian {
+    cursor: pointer;
+
+    // &:not(:last-child) {
+    //     border-bottom: 1px solid rgba($color: #0065f233, $alpha: 0.2);
+    //     margin-bottom: mix.rem(0);
+    //     padding-bottom: mix.rem(0);
+    // }
+
+    span {
+        font-family: globVar.$body-font;
+        font-size: mix.rem(25);
+        line-height: mix.rem(30);
+        color: rgba($color: globVar.$color-black, $alpha: 0.5);
+        top: - mix.rem(20);
+        left: - mix.rem(35);
+    }
+
+    .title {
+
+        // margin-bottom: mix.rem(28);
+        h3 {
+            color: inherit;
+            margin: 0;
+
+        }
+    }
+
+    .description {
+        p {
+            margin-block: mix.rem(0);
+            // max-width: clamp(mix.rem(480), mix.vw(480), mix.vw(480));            // text-transform: capitalize;
+        }
+    }
+}
+
+.page-type-portfolio-project {
+    .portfolio-listing_mobile {
+        padding-bottom: mix.rem(70) !important;
+
+        @include mix.breakpoint(767) {
+            padding-bottom: mix.rem(50) !important;
+        }
+    }
+}
