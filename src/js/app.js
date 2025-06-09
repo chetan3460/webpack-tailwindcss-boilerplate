@@ -87,6 +87,53 @@ export default new (class App {
     });
 
 
+
+    var handleMobileNav = function () {
+      $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+        if ($(this).hasClass('active')) {
+          $(this).removeClass('active');
+        } else {
+          $('.mobile-nav .menu-item-has-children').removeClass('active');
+          $(this).addClass('active');
+        }
+        event.stopPropagation();
+      });
+
+      $('#mobile-menu').click(function () {
+        $(this).toggleClass('open');
+        $('#mobile-nav').toggleClass('open');
+      });
+
+      $('#desktop-menu').click(function () {
+        $(this).toggleClass('open');
+        $('.desktop-menu').toggleClass('open');
+      });
+
+      $('#res-cross').click(function () {
+        $('#mobile-nav').removeClass('open');
+        $('#mobile-menu').removeClass('open')
+      });
+    }
+
+
+    /* Header Fixed ============ */
+    var headerFix = function () {
+      /* Main navigation fixed on top  when scroll down function custom */
+      jQuery(window).bind('scroll', function () {
+        if (jQuery('.sticky-header').length) {
+          var menu = jQuery('.sticky-header');
+          if ($(window).scrollTop() > menu.offset().top) {
+            menu.addClass('is-fixed');
+          } else {
+            menu.removeClass('is-fixed');
+          }
+        }
+      });
+      /* Main navigation fixed on top  when scroll down function custom end*/
+    }
+    headerFix();
+    handleMobileNav();
+
   };
 
   windowResize = () => {

@@ -1,0 +1,649 @@
+@import "tailwindcss"; /* This imports the core Tailwind styles */
+
+/* Define your custom layers, typically in this order */
+@layer theme, base, components, utilities;
+
+/*
+  Theme Layer
+  -----------------------------
+  All your custom theme variables (design tokens) go inside :root {} within this layer.
+  Tailwind's PostCSS plugin will process these variables to extend or override its default theme.
+*/
+@layer theme {
+  :root {
+    /* Fonts */
+    --font-sans:
+      ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --font-sora: "Sora";
+    --font-urbanist: "Urbanist";
+    --font-montserrat: "Montserrat";
+
+    /* Colors (Your base color definitions) */
+    --color-red-500: oklch(
+      0.637 0.237 25.331
+    ); /* Consider removal if not used */
+    --color-black: #000;
+    --color-white: #fff;
+    --common-colour: #021935; /* Your default secondary color */
+    --theme-colour: #5050f4; /* Your default primary color */
+    --color-gary: #646464;
+    --color-lightgary: #cbd5e1;
+    --color-yellow: #ffa808;
+
+    /* Theme-mapped colors (referencing your base colors) */
+    --color-primary: var(--theme-colour);
+    --color-secondary: var(--common-colour);
+
+    /* Spacing & Sizes */
+    --spacing: 1px;
+    --text-xs: 0.75rem;
+    --text-xs--line-height: calc(1 / 0.75);
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 24px;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 30px;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 35px;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 50px;
+    --text-5xl--line-height: 1;
+    --text-6xl: 60px;
+    --text-6xl--line-height: 1;
+    --text-7xl: 70px;
+    --text-7xl--line-height: 1;
+    --text-9xl: 120px;
+    --text-9xl--line-height: 1;
+
+    /* Custom Text Sizes (Hyphens used for consistency) */
+    --text-2sm: 15px;
+    --text-xxl: 22px;
+    --text-2-3xl: 32px;
+    --text-2-5xl: 28px;
+    --text-4-6xl: 36px;
+    --text-3-8xl: 38px;
+    --text-4-5xl: 45px;
+    --text-4-3xl: 43px;
+    --text-4-75xl: 40px;
+    --text-4-8xl: 45px;
+    --text-5-2xl: 52px;
+    --text-6-3xl: 63px;
+    --text-7-5xl: 82px;
+    --text-2xxl: 26px;
+    --text-4-65xl: 42px;
+    --text-7-7xl: 92px;
+    --text-8-5xl: 100px;
+    --text-9-5xl: 155px;
+    --text-10xl: 164px;
+
+    /* Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /* Transitions & Animations */
+    --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    --ease-out: cubic-bezier(0, 0, 0.2, 1);
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Default Font Settings */
+    --default-font-family: var(--font-sans);
+    --default-font-feature-settings: normal;
+    --default-font-variation-settings: normal;
+    --default-mono-font-family: var(--font-mono);
+    --default-mono-font-feature-settings: normal;
+    --default-mono-font-variation-settings: normal;
+
+    /* Animation Names (Harmonized capitalization) */
+    --animate-bellring: bellring 5s infinite;
+    --animate-topshap: topshap 5s infinite;
+    --animate-fa-spin: fa-spin 10s linear infinite;
+    --animate-scroll-one: scroll-one 40s linear infinite;
+    --animate-scroll-two: scroll-two 40s linear infinite;
+  }
+}
+
+/*
+  Imports for other CSS files
+  ---------------------------
+  These can often be placed before or within specific layers depending on their content.
+*/
+@import "./header.css";
+@import "../../node_modules/swiper/swiper-bundle.css";
+
+/* Base Body Styles (Can be here or within @layer base) */
+body {
+  background-color: #fff;
+  font-family: "Urbanist", var(--font-sans); /* Fallback to sans-serif */
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+
+/*
+  Base Layer Styles (Reset/Normalize)
+  -----------------------------------
+  These apply foundational styles to HTML elements.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html,
+  :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(
+      --default-font-family,
+      ui-sans-serif,
+      system-ui,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji"
+    );
+    font-feature-settings: var(--default-font-feature-settings);
+    font-variation-settings: var(--default-font-variation-settings);
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    line-height: inherit;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: var(
+      --default-mono-font-family,
+      ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      "Liberation Mono",
+      "Courier New",
+      monospace
+    );
+    font-feature-settings: var(--default-mono-font-feature-settings);
+    font-variation-settings: var(--default-mono-font-variation-settings);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol,
+  ul,
+  menu {
+    list-style: none;
+  }
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    display: block;
+    vertical-align: middle;
+  }
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  button,
+  input,
+  select,
+  optgroup,
+  textarea,
+  ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+    color: color-mix(in oklab, currentColor 50%, transparent);
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit,
+  ::-webkit-datetime-edit-year-field,
+  ::-webkit-datetime-edit-month-field,
+  ::-webkit-datetime-edit-day-field,
+  ::-webkit-datetime-edit-hour-field,
+  ::-webkit-datetime-edit-minute-field,
+  ::-webkit-datetime-edit-second-field,
+  ::-webkit-datetime-edit-millisecond-field,
+  ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button,
+  input:where([type="button"], [type="reset"], [type="submit"]),
+  ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+
+/*
+  Utility Layer
+  -----------------------------
+  Custom utility classes go here.
+*/
+@layer utilities {
+  .\@container {
+    container-type: inline-size;
+  }
+  .\@container-\[inline-size\] {
+    container-type: inline-size;
+  }
+  .container {
+    margin-inline: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Text Colors */
+  .text-black {
+    color: var(--color-black);
+  }
+  .text-gary {
+    color: var(--color-gary);
+  }
+  .text-lightgary {
+    color: var(--color-lightgary);
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .text-yellow {
+    color: var(--color-yellow);
+  }
+
+  /* Background Colors */
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  /* Content Utilities */
+  .content-none {
+    --tw-content: none;
+    content: none;
+  }
+
+  /* Svg */
+  .stroke-secondary {
+    stroke: var(--color-secondary);
+  }
+}
+
+/*
+  Components Layer
+  -----------------------------
+  Your custom component styles go here.
+*/
+@layer components {
+  /* Layout Components */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .row > * {
+    --bs-gutter-x: 1.5rem;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .container-fluid {
+    margin-inline: auto;
+    width: 100%;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  /* Button Component */
+  .btn {
+    position: relative;
+    margin: 0; /* Simpler than calc(var(--spacing) * 0) */
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 9999px; /* More readable for infinity */
+    border-style: var(--tw-border-style, none); /* Default to none if not set */
+    border-width: 0px;
+    background-color: var(--color-secondary);
+    padding-inline: calc(var(--spacing) * 40);
+    padding-block: calc(var(--spacing) * 18);
+    font-size: var(--text-2sm);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    text-transform: capitalize;
+    transition-duration: 500ms;
+  }
+  .btn:before {
+    position: absolute;
+    top: 0; /* Simpler than calc(var(--spacing) * 0) */
+    left: -10%;
+    z-index: 0;
+    height: 103%;
+    width: 120%;
+    transform: skewX(30deg); /* Direct transform value */
+    background-color: var(--color-primary);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.3, 1, 0.8, 1);
+    content: ""; /* Direct content value */
+  }
+  .btn span {
+    position: relative;
+    z-index: 10;
+  }
+  .btn i {
+    margin-left: calc(var(--spacing) * 13);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+  .btn:hover:before {
+    transform: translate3d(100%, 0, 0);
+  }
+  @media (max-width: 991px) {
+    .btn:focus:before {
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+
+  .btn.two:before {
+    background-color: var(--color-white);
+  }
+  .btn.two {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: #d8d8d8;
+    background-color: var(--color-primary);
+    color: #011834;
+  }
+  .btn.two:hover {
+    color: var(--color-white);
+  }
+  @media (max-width: 991px) {
+    .btn.two:focus {
+      color: var(--color-white);
+    }
+  }
+
+  /* Accordion Component */
+  .accordion-item.active {
+    border-bottom-style: var(--tw-border-style, solid);
+    border-bottom-width: 2px;
+    border-color: #d8d8d8;
+    background-color: var(--color-white);
+    transition-duration: 500ms;
+  }
+  .accordion-item.active i {
+    color: var(--color-primary);
+  }
+  .accordion-item {
+    margin-bottom: calc(var(--spacing) * 25);
+    background-color: transparent;
+    color: var(--color-secondary);
+  }
+  .accordion-item.active .icon {
+    top: 0; /* Simpler than calc(var(--spacing) * 0) */
+    rotate: 45deg;
+    transition-duration: 500ms;
+  }
+  .content {
+    display: none;
+  }
+  .accordion-item.active .title {
+    border-style: var(--tw-border-style, none);
+    border-width: 0px;
+  }
+  .title {
+    border-bottom-style: var(--tw-border-style, solid);
+    border-bottom-width: 2px;
+    border-color: #d8d8d8;
+    background-color: var(--color-white);
+    padding-bottom: calc(var(--spacing) * 24);
+    text-align: start;
+    font-family: var(--font-sora);
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-secondary);
+  }
+  @media (max-width: 1400px) {
+    .title {
+      font-size: var(--text-xl);
+      line-height: var(--text-xl--line-height);
+    }
+  }
+  @media (max-width: 1200px) {
+    .title {
+      font-size: var(--text-lg);
+      line-height: var(--text-lg--line-height);
+    }
+  }
+
+  /* Swiper Navigation Styles (Overrides default Swiper styles) */
+  .swiper-button-prev {
+    right: calc(var(--spacing) * 10);
+    left: auto;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: calc(1 / 2 * 100%); /* Centers vertically */
+    z-index: 10;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #011834 !important; /* Specific color for arrows */
+  }
+  .swiper-button-next {
+    right: auto;
+    left: calc(var(--spacing) * 10);
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after,
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    display: none; /* Hides default Swiper arrow icons */
+  }
+
+  /* Image Slider Navigation Specifics */
+  .image-slider:hover .swiper-button .swiper-button-next {
+    right: calc(var(--spacing) * 20) !important;
+    background-color: transparent;
+    transition-duration: 500ms;
+  }
+  .image-slider .swiper-button .swiper-button-next {
+    right: calc(var(--spacing) * -200) !important; /* Off-screen by default */
+    transition-duration: 500ms;
+  }
+  .image-slider .swiper-button > div {
+    width: calc(var(--spacing) * 160) !important;
+  }
+  .image-slider .swiper-button span {
+    display: flex;
+    width: calc(var(--spacing) * 160);
+    height: calc(var(--spacing) * 160);
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px; /* More readable for infinity */
+    background-color: #ffffff52;
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    color: var(--color-white);
+    text-transform: uppercase;
+    transition-duration: 500ms;
+  }
+  .image-slider:hover .swiper-button .swiper-button-prev {
+    left: calc(var(--spacing) * 20) !important;
+    background-color: transparent;
+    transition-duration: 500ms;
+  }
+  .image-slider .swiper-button .swiper-button-prev {
+    left: calc(var(--spacing) * -200) !important; /* Off-screen by default */
+    transition-duration: 500ms;
+  }
+  .image-slider .swiper-button span:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    transition-duration: 500ms;
+  }
+
+  @media (max-width: 1200px) {
+    .image-slider .swiper-button span {
+      width: calc(var(--spacing) * 120);
+      height: calc(var(--spacing) * 120);
+      font-size: var(--text-lg);
+      line-height: var(--text-lg--line-height);
+    }
+  }
+  @media (max-width: 992px) {
+    .image-slider img {
+      height: auto;
+    }
+  }
+  @media (max-width: 576px) {
+    .image-slider .swiper-button span {
+      width: calc(var(--spacing) * 50);
+      height: calc(var(--spacing) * 50);
+      font-size: var(--text-xs);
+      line-height: var(--text-xs--line-height);
+    }
+  }
+}
