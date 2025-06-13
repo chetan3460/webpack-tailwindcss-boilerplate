@@ -1,13 +1,12 @@
 import Header from './components/Header';
-// import Maps from './components/Maps';
-// import BlockMain from "./Blocks/BlockMain";
 import DynamicImports from './components/DynamicImports';
-// import Animation from "./components/Animation";
-// import Lenis from "@studio-freight/lenis";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { Power2 } from 'gsap';
-// gsap.registerPlugin(ScrollTrigger, Power2);
+
+// 
+import { Offcanvas } from 'bootstrap';
+import counterUp from 'counterup2';
+import Waypoint from 'waypoints/lib/noframework.waypoints';
+import SVGInject from "@iconfu/svg-inject";
+
 
 
 
@@ -34,6 +33,9 @@ export default new (class App {
     this.windowResize();
     this.bindEvents();
     // this.handleSplashScreen();
+    this.offCanvas();
+    this.counterUp();
+    this.svgInject();
   };
 
   initComponents = () => {
@@ -71,6 +73,9 @@ export default new (class App {
   };
 
   bindEvents = () => {
+
+
+
     // Window Events
     this.window.resize(this.windowResize).scroll(this.windowScroll);
 
@@ -87,52 +92,6 @@ export default new (class App {
     });
 
 
-
-    var handleMobileNav = function () {
-      $('.mobile-nav .menu-item-has-children').on('click', function (event) {
-        if ($(this).hasClass('active')) {
-          $(this).removeClass('active');
-        } else {
-          $('.mobile-nav .menu-item-has-children').removeClass('active');
-          $(this).addClass('active');
-        }
-        event.stopPropagation();
-      });
-
-      $('#mobile-menu').click(function () {
-        $(this).toggleClass('open');
-        $('#mobile-nav').toggleClass('open');
-      });
-
-      $('#desktop-menu').click(function () {
-        $(this).toggleClass('open');
-        $('.desktop-menu').toggleClass('open');
-      });
-
-      $('#res-cross').click(function () {
-        $('#mobile-nav').removeClass('open');
-        $('#mobile-menu').removeClass('open')
-      });
-    }
-
-
-    /* Header Fixed ============ */
-    var headerFix = function () {
-      /* Main navigation fixed on top  when scroll down function custom */
-      jQuery(window).bind('scroll', function () {
-        if (jQuery('.sticky-header').length) {
-          var menu = jQuery('.sticky-header');
-          if ($(window).scrollTop() > menu.offset().top) {
-            menu.addClass('is-fixed');
-          } else {
-            menu.removeClass('is-fixed');
-          }
-        }
-      });
-      /* Main navigation fixed on top  when scroll down function custom end*/
-    }
-    headerFix();
-    handleMobileNav();
 
   };
 
@@ -172,10 +131,7 @@ export default new (class App {
     );
   };
 
-  // handleSplashScreen() {
-  //   this.htmlBody.find('.logo-middle').fadeIn(500);
-  //   this.siteLoader.delay(1500).fadeOut(500);
-  // }
+
 
   handleUserAgent = () => {
     // detect mobile platform
@@ -226,6 +182,69 @@ export default new (class App {
   };
 
 
+  offCanvas = () => {
+    var navbar = document.querySelector(".navbar");
+    if (navbar == null) return;
+    const navOffCanvasBtn = document.querySelectorAll(".offcanvas-nav-btn");
+    const navOffCanvas = document.querySelector('.navbar:not(.navbar-clone) .offcanvas-nav');
+    // const bsOffCanvas = new bootstrap.Offcanvas(navOffCanvas, { scroll: true });
+    const bsOffCanvas = new Offcanvas(navOffCanvas, { scroll: true });
+
+    const scrollLink = document.querySelectorAll('.onepage .navbar li a.scroll');
+    const searchOffcanvas = document.getElementById('offcanvas-search');
+    navOffCanvasBtn.forEach(e => {
+      e.addEventListener('click', event => {
+        bsOffCanvas.show();
+      })
+    });
+    scrollLink.forEach(e => {
+      e.addEventListener('click', event => {
+        bsOffCanvas.hide();
+      })
+    });
+    if (searchOffcanvas != null) {
+      searchOffcanvas.addEventListener('shown.bs.offcanvas', function () {
+        document.getElementById("search-form").focus();
+      });
+    }
+  }
+
+  counterUp = () => {
+    const Waypoint = window.Waypoint; // must access it this way
+    const counters = document.querySelectorAll(".counter");
+
+    counters.forEach((el) => {
+      new Waypoint({
+        element: el,
+        handler: function () {
+          counterUp(el, {
+            duration: 1000,
+            delay: 50,
+          });
+          this.destroy();
+        },
+        offset: 'bottom-in-view',
+      });
+    });
+  };
+
+
+  svgInject = () => {
+    // Optional: global config
+    SVGInject.setOptions({
+      onFail: function (img, svg) {
+        img.classList.remove('svg-inject');
+      }
+    });
+
+    // Inject once DOM is ready
+    const svgs = document.querySelectorAll('img.svg-inject');
+    if (svgs.length > 0) {
+      SVGInject(svgs, {
+        useCache: true,
+      });
+    }
+  }
 
 
 

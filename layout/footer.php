@@ -1,93 +1,137 @@
-	<footer class="xl:pt-120 lg:pt-100 pt-80 bg-no-repeat bg-[right_bottom] relative bg-secondary bg-[url(../img/footer-bg.png)]">
-	    <div class="container">
+  </div>
 
-	        <div class="lg:pb-100 md:pb-80 pb-60">
-	            <div class="grid grid-cols-12 gap-20">
-	                <div class="lg:col-span-4 sm:col-span-6 col-span-12">
-	                    <div class="footre-logo">
-	                        <a href="index.html"><img src="https://screenroot.com/wp-content/uploads/2024/04/logo.svg" alt="img"></a>
-	                        <p class="pt-14 pb-30 text-base xxl:leading-30 xl:leading-28 leading-26 text-lightgary font-normal">We are committed to delivering exceptional healthcare with compassion, expertise, and innovation. Our dedicated.</p>
+  <footer class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
+  	<div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+  		<div class="xl:!flex lg:!flex flex-row xl:!items-center lg:!items-center">
+  			<h3
+  				class="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-6 xl:!mb-0 lg:!mb-0 lg:!pr-40 xl:!pr-60 xxl:!pr-[22.5rem] !text-white">
+  				Join our community by using our services and grow your business.</h3>
+  			<a href="#"
+  				class="btn btn-yellow !text-white !bg-[#fab758] border-[#fab758] hover:text-white hover:bg-[#fab758] hover:!border-[#fab758] active:text-white active:bg-[#fab758] active:border-[#fab758] disabled:text-white disabled:bg-[#fab758] disabled:border-[#fab758] !text-[.85rem] !rounded-[50rem]  !mb-0 whitespace-nowrap !tracking-[normal]">Try
+  				It For Free</a>
+  		</div>
+  		<!--/div -->
+  		<hr class="!mt-[3rem] !mb-[3.5rem] opacity-100 m-[4.5rem_0] border-t border-solid border-[rgba(164,174,198,.2)]">
+  		<div class="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
+  			<div
+  				class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
+  				<div class="widget !text-[#cacaca]">
+  					<img class="!mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="image">
+  					<p class="!mb-4">© 2024 Sandbox. <br class="hidden xl:block lg:block !text-[#cacaca]">All rights reserved.
+  					</p>
+  					<nav class="nav social social-white">
+  						<a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
+  							href="#"><i class="uil uil-twitter before:content-['\ed59'] !text-white text-[1rem]"></i></a>
+  						<a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
+  							href="#"><i class="uil uil-facebook-f before:content-['\eae2'] !text-white text-[1rem]"></i></a>
+  						<a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
+  							href="#"><i class="uil uil-dribbble before:content-['\eaa2'] !text-white text-[1rem]"></i></a>
+  						<a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
+  							href="#"><i class="uil uil-instagram before:content-['\eb9c'] !text-white text-[1rem]"></i></a>
+  						<a class="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
+  							href="#"><i class="uil uil-youtube before:content-['\edb5'] !text-white text-[1rem]"></i></a>
+  					</nav>
+  					<!-- /.social -->
+  				</div>
+  				<!-- /.widget -->
+  			</div>
+  			<!-- /column -->
+  			<div
+  				class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
+  				<div class="widget !text-[#cacaca]">
+  					<h4 class="widget-title !text-white !mb-3 text-[1rem] !leading-[1.45]">Get in Touch</h4>
+  					<address class="xl:!pr-20 xxl:!pr-28 not-italic !leading-[inherit] block !mb-4">Moonshine St. 14/05 Light City,
+  						London, United Kingdom</address>
+  					<a class="!text-[#cacaca] hover:!text-[#fab758]" href="mailto:first.last@email.com">info@email.com</a><br> 00
+  					(123) 456 78 90
+  				</div>
+  				<!-- /.widget -->
+  			</div>
+  			<!-- /column -->
+  			<div
+  				class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
+  				<div class="widget !text-[#cacaca]">
+  					<h4 class="widget-title !text-white !mb-3 text-[1rem] !leading-[1.45]">Learn More</h4>
+  					<ul class="pl-0 list-none   !mb-0">
+  						<li><a class="!text-[#cacaca] hover:!text-[#fab758]" href="#">About Us</a></li>
+  						<li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fab758]" href="#">Our Story</a></li>
+  						<li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fab758]" href="#">Projects</a></li>
+  						<li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fab758]" href="#">Terms of Use</a></li>
+  						<li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fab758]" href="#">Privacy Policy</a></li>
+  					</ul>
+  				</div>
+  				<!-- /.widget -->
+  			</div>
+  			<!-- /column -->
+  			<div
+  				class="md:w-full xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
+  				<div class="widget !text-[#cacaca]">
+  					<h4 class="widget-title !text-white !mb-3 text-[1rem] !leading-[1.45]">Our Newsletter</h4>
+  					<p class="!mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+  					<div class="newsletter-wrapper">
+  						<!-- Begin Mailchimp Signup Form -->
+  						<div id="mc_embed_signup2">
+  							<form
+  								action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+  								method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+  								class="validate dark-fields" target="_blank" novalidate>
+  								<div id="mc_embed_signup_scroll2">
+  									<div class="!text-left input-group form-floating !relative flex flex-wrap items-stretch w-full">
+  										<input type="email" value="" name="EMAIL"
+  											class="required email form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none     focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] focus:!border-[rgba(250,183,88,.5)] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(250,183,88,.5)]  "
+  											placeholder="" id="mce-EMAIL2">
+  										<label
+  											class="!ml-[0.05rem] !text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none origin-[0_0] px-4 py-[0.6rem] left-0 top-0"
+  											for="mce-EMAIL2">Email Address</label>
+  										<input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+  											class="btn btn-yellow !text-white !bg-[#fab758] border-[#fab758] hover:text-white hover:bg-[#fab758] hover:!border-[#fab758] active:text-white active:bg-[#fab758] active:border-[#fab758] disabled:text-white disabled:bg-[#fab758] disabled:border-[#fab758] !text-[.85rem] !relative z-[2] focus:z-[5] hover:!transform-none hover:!translate-none border-0">
+  									</div>
+  									<div id="mce-responses2" class="clear">
+  										<div class="response" id="mce-error-response2" style="display:none"></div>
+  										<div class="response" id="mce-success-response2" style="display:none"></div>
+  									</div>
+  									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  									<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+  											name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+  									<div class="clear"></div>
+  								</div>
+  							</form>
+  						</div>
+  						<!--End mc_embed_signup-->
+  					</div>
+  					<!-- /.newsletter-wrapper -->
+  				</div>
+  				<!-- /.widget -->
+  			</div>
+  			<!-- /column -->
+  		</div>
+  		<!--/.row -->
+  	</div>
+  	<!-- /.container -->
+  </footer>
+  <!-- progress wrapper -->
+  <div
+  	class="progress-wrap fixed w-[2.3rem] h-[2.3rem] cursor-pointer block shadow-[inset_0_0_0_0.1rem_rgba(128,130,134,0.25)] z-[1010] opacity-0 invisible translate-y-3 transition-all duration-[0.2s] ease-[linear,margin-right] delay-[0s] rounded-[100%] right-6 bottom-6 motion-reduce:transition-none after:absolute after:content-['\e951'] after:text-center after:leading-[2.3rem] after:text-[1.2rem] after:!text-[#fab758] after:h-[2.3rem] after:w-[2.3rem] after:cursor-pointer after:block after:z-[1] after:transition-all after:duration-[0.2s] after:ease-linear after:left-0 after:top-0 motion-reduce:after:transition-none after:font-Unicons">
+  	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+  		<path
+  			class="fill-none stroke-[#fab758] stroke-[4] box-border transition-all duration-[0.2s] ease-linear motion-reduce:transition-none"
+  			d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  	</svg>
+  </div>
+  <?php
+	include_once 'helpers.php';
 
-	                    </div>
-	                </div>
-	                <div class="lg:col-span-4 sm:col-span-6 col-span-12">
-	                    <div class="lg:pl-39">
-	                        <h5 class="font-bold xxl:text-2xxl text-xxl capitalize pb-18 font-sora text-white leading-[1.2]">services</h5>
-	                        <ul>
-	                            <li class="pb-16"><a href="services-details.html" class="text-lightgary font-sora hover:text-primary duration-500 max-xl:text-sm"> Patient Resources</a></li>
-	                            <li class="pb-16"><a href="services-details.html" class="text-lightgary font-sora hover:text-primary duration-500 max-xl:text-sm">Payment Options</a></li>
-	                            <li class="pb-16"><a href="services-details.html" class="text-lightgary font-sora hover:text-primary duration-500 max-xl:text-sm">Telemedicine Portal</a></li>
-	                            <li class="pb-16"><a href="services-details.html" class="text-lightgary font-sora hover:text-primary duration-500 max-xl:text-sm">Insurance Information</a></li>
-	                            <li><a href="appointment.html" class="text-lightgary font-sora hover:text-primary duration-500 max-xl:text-sm">Appointment Booking</a></li>
-	                        </ul>
-	                    </div>
-	                </div>
-	                <div class="lg:col-span-4 sm:col-span-6 col-span-12">
-	                    <div>
-	                        <h5 class="font-bold xxl:text-2xxl text-xxl capitalize pb-18 font-sora text-white leading-[1.2]">contact uS</h5>
-	                        <ul>
-	                            <li class="pb-16">
-	                                <h6 class="pb-6 capitalize font-urbanist text-lightgary xl:text-base text-sm font-medium leading-[1.2] flex items-center">
-	                                    <i class="mr-5 text-lightgary">
-	                                        <svg width="10" height="12" viewBox="0 0 10 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-	                                            <path d="M5 3.00075C4.6066 3.00075 4.22204 3.11804 3.89494 3.33778C3.56784 3.55752 3.3129 3.86985 3.16235 4.23527C3.0118 4.6007 2.97241 5.00279 3.04916 5.39072C3.12591 5.77865 3.31535 6.13499 3.59352 6.41467C3.8717 6.69435 4.22611 6.88481 4.61195 6.96198C4.99779 7.03914 5.39773 6.99954 5.76118 6.84818C6.12463 6.69681 6.43528 6.44049 6.65384 6.11162C6.87241 5.78275 6.98906 5.3961 6.98906 5.00058C6.98906 4.47019 6.7795 3.96152 6.40648 3.58648C6.03346 3.21144 5.52753 3.00075 5 3.00075ZM5 6.00049C4.8033 6.00049 4.61102 5.94185 4.44747 5.83197C4.28392 5.7221 4.15645 5.56594 4.08117 5.38323C4.0059 5.20052 3.98621 4.99947 4.02458 4.8055C4.06295 4.61154 4.15767 4.43337 4.29676 4.29353C4.43585 4.15369 4.61306 4.05846 4.80598 4.01988C4.9989 3.98129 5.19886 4.00109 5.38059 4.07678C5.56232 4.15246 5.71764 4.28062 5.82692 4.44505C5.9362 4.60949 5.99453 4.80281 5.99453 5.00058C5.99453 5.26577 5.88975 5.5201 5.70324 5.70762C5.51673 5.89514 5.26377 6.00049 5 6.00049Z" />
-	                                            <path d="M5 12C4.58128 12.0021 4.16813 11.9034 3.79516 11.712C3.42219 11.5206 3.10025 11.2422 2.85629 10.9001C0.961213 8.27179 0 6.29596 0 5.02707C0 3.69381 0.526784 2.41515 1.46447 1.47239C2.40215 0.529636 3.67392 0 5 0C6.32608 0 7.59785 0.529636 8.53553 1.47239C9.47322 2.41515 10 3.69381 10 5.02707C10 6.29596 9.03879 8.27179 7.14371 10.9001C6.89975 11.2422 6.57781 11.5206 6.20484 11.712C5.83187 11.9034 5.41873 12.0021 5 12ZM5 1.09141C3.96192 1.0926 2.96669 1.50773 2.23266 2.24574C1.49862 2.98375 1.08572 3.98436 1.08453 5.02807C1.08453 6.03298 2.02586 7.89132 3.73446 10.2606C3.87951 10.4615 4.0698 10.625 4.28976 10.7377C4.50973 10.8504 4.75311 10.9092 5 10.9092C5.24689 10.9092 5.49027 10.8504 5.71024 10.7377C5.9302 10.625 6.12049 10.4615 6.26554 10.2606C7.97414 7.89132 8.91547 6.03298 8.91547 5.02807C8.91428 3.98436 8.50138 2.98375 7.76734 2.24574C7.03331 1.50773 6.03808 1.0926 5 1.09141Z" />
-	                                        </svg>
-	                                    </i>
-	                                    Address
-	                                </h6>
-	                                <span class="font-bold font-urbanist text-lightgary hover:text-primary duration-500 max-xl:text-sm">1901 Thornridge Cir. Shiloh</span>
-	                            </li>
-	                            <li class="pb-16">
-	                                <h6 class="pb-6 capitalize font-urbanist text-lightgary xl:text-base text-sm font-medium leading-[1.2] flex items-center">
-	                                    <i class="mr-5 text-lightgary">
-	                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-	                                            <path d="M6.49103 0.501622C6.49103 0.368796 6.5438 0.24141 6.63772 0.147487C6.73164 0.0535649 6.85902 0.000799798 6.99185 0.000799798C8.31964 0.00225799 9.59264 0.530377 10.5315 1.46929C11.4704 2.40819 11.9985 3.68121 12 5.00903C12 5.14185 11.9472 5.26924 11.8533 5.36316C11.7594 5.45708 11.632 5.50985 11.4992 5.50985C11.3664 5.50985 11.239 5.45708 11.1451 5.36316C11.0511 5.26924 10.9984 5.14185 10.9984 5.00903C10.9972 3.94678 10.5747 2.92838 9.82357 2.17726C9.07246 1.42614 8.05408 1.00364 6.99185 1.00245C6.85902 1.00245 6.73164 0.94968 6.63772 0.855758C6.5438 0.761835 6.49103 0.634449 6.49103 0.501622ZM6.99185 3.00574C7.52314 3.00574 8.03268 3.2168 8.40837 3.59249C8.78405 3.96818 8.99511 4.47772 8.99511 5.00903C8.99511 5.14185 9.04787 5.26924 9.14179 5.36316C9.23571 5.45708 9.3631 5.50985 9.49592 5.50985C9.62875 5.50985 9.75613 5.45708 9.85005 5.36316C9.94397 5.26924 9.99674 5.14185 9.99674 5.00903C9.99594 4.21231 9.6791 3.44846 9.11575 2.88509C8.55239 2.32173 7.78855 2.00489 6.99185 2.00409C6.85902 2.00409 6.73164 2.05686 6.63772 2.15078C6.5438 2.2447 6.49103 2.37209 6.49103 2.50491C6.49103 2.63774 6.5438 2.76513 6.63772 2.85905C6.73164 2.95297 6.85902 3.00574 6.99185 3.00574ZM11.5458 8.38407C11.836 8.67511 11.999 9.06935 11.999 9.48037C11.999 9.89139 11.836 10.2856 11.5458 10.5767L11.09 11.102C6.98834 15.029 -2.99291 5.05009 0.873384 0.935335L1.44932 0.434512C1.74068 0.152387 2.1314 -0.00368303 2.53694 6.60132e-05C2.94249 0.00381505 3.33026 0.167082 3.61635 0.454545C3.63188 0.470071 4.55989 1.67555 4.55989 1.67555C4.83525 1.96484 4.98854 2.34912 4.98788 2.74851C4.98723 3.14791 4.83269 3.53169 4.55638 3.82007L3.97644 4.54927C4.29738 5.32911 4.76926 6.03784 5.36495 6.63474C5.96064 7.23165 6.66841 7.70496 7.44759 8.02748L8.18128 7.44403C8.4697 7.16793 8.85341 7.01357 9.25268 7.01301C9.65194 7.01245 10.0361 7.16573 10.3253 7.44102C10.3253 7.44102 11.5302 8.36854 11.5458 8.38407ZM10.8566 9.11227C10.8566 9.11227 9.65819 8.19025 9.64266 8.17473C9.53949 8.07242 9.40007 8.01502 9.25478 8.01502C9.10949 8.01502 8.97007 8.07242 8.8669 8.17473C8.85338 8.18875 7.84323 8.99357 7.84323 8.99357C7.77516 9.04776 7.69415 9.08327 7.60817 9.09662C7.5222 9.10997 7.43423 9.10069 7.35293 9.0697C6.34352 8.69386 5.42667 8.10548 4.66447 7.3444C3.90228 6.58332 3.31256 5.66732 2.93524 4.65845C2.90179 4.57604 2.89088 4.48621 2.90364 4.39819C2.9164 4.31017 2.95238 4.22714 3.00786 4.15763C3.00786 4.15763 3.81267 3.14697 3.82619 3.13395C3.92849 3.03077 3.98589 2.89136 3.98589 2.74606C3.98589 2.60076 3.92849 2.46135 3.82619 2.35817C3.81067 2.34315 2.88867 1.14368 2.88867 1.14368C2.78394 1.04978 2.64727 0.999488 2.50667 1.00312C2.36606 1.00675 2.23217 1.06403 2.13243 1.16321L1.5565 1.66403C-1.2691 5.06161 7.38048 13.2315 10.3578 10.4179L10.8141 9.89205C10.921 9.79301 10.9852 9.65629 10.9931 9.51077C11.0011 9.36525 10.9521 9.22235 10.8566 9.11227Z" />
-	                                        </svg>
-	                                    </i>Phone Number
-	                                </h6>
-	                                <a class="font-bold font-urbanist text-lightgary hover:text-primary duration-500 max-xl:text-sm" href="callto:013221392132">013 354 213 - 92132</a>
-	                            </li>
-	                            <li>
-	                                <h6 class="pb-6 capitalize font-urbanist text-lightgary xl:text-base text-sm font-medium leading-[1.2] flex items-center">
-	                                    <i class="mr-5 text-lightgary">
-	                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-	                                            <path d="M11.0833 0H2.91667C2.1434 0.000866104 1.40208 0.288481 0.855295 0.799756C0.308514 1.31103 0.00092625 2.00422 0 2.72727L0 9.27273C0.00092625 9.99578 0.308514 10.689 0.855295 11.2002C1.40208 11.7115 2.1434 11.9991 2.91667 12H11.0833C11.8566 11.9991 12.5979 11.7115 13.1447 11.2002C13.6915 10.689 13.9991 9.99578 14 9.27273V2.72727C13.9991 2.00422 13.6915 1.31103 13.1447 0.799756C12.5979 0.288481 11.8566 0.000866104 11.0833 0ZM2.91667 1.09091H11.0833C11.4326 1.09155 11.7737 1.18992 12.0627 1.37335C12.3517 1.55678 12.5754 1.81688 12.705 2.12018L8.23783 6.29782C7.90908 6.60399 7.46399 6.77589 7 6.77589C6.53601 6.77589 6.09092 6.60399 5.76217 6.29782L1.295 2.12018C1.42459 1.81688 1.64827 1.55678 1.93728 1.37335C2.22628 1.18992 2.56738 1.09155 2.91667 1.09091ZM11.0833 10.9091H2.91667C2.45254 10.9091 2.00742 10.7367 1.67923 10.4298C1.35104 10.1229 1.16667 9.70672 1.16667 9.27273V3.54545L4.93733 7.06909C5.48487 7.57978 6.22665 7.86657 7 7.86657C7.77335 7.86657 8.51513 7.57978 9.06267 7.06909L12.8333 3.54545V9.27273C12.8333 9.70672 12.649 10.1229 12.3208 10.4298C11.9926 10.7367 11.5475 10.9091 11.0833 10.9091Z" />
-	                                        </svg>
-	                                    </i>
-	                                    email Address
-	                                </h6>
-	                                <a class="font-bold font-urbanist text-lightgary hover:text-primary duration-500 max-xl:text-sm" href="mailto:info123@gmail.com">info123@gmail.com</a>
-	                            </li>
-	                        </ul>
-	                    </div>
-	                </div>
+	// Get the base URL and version separately
+	$base_url = get_base_url();
+	$version = get_version();
+	?>
 
-	            </div>
-	        </div>
-	        <div class="copyright py-20 max-md:flex-wrap flex md:justify-between justify-center border-t border-[#d7d7d7] ">
-	            <p class="xl:text-base text-sm leading-30 text-lightgary font-normal">Copyright © <span class="current-year"> 2025 </span> <span class="text-primary"><a href="https://dexignlab.com/">ScreenRoot Technologies Limited.</a></span> All Rights Reserved.</p>
-	            <ul class="flex gap-x-30">
-	                <li><a href="javascript:void(0);" class="text-lightgary xl:text-base text-sm font-Urbanist hover:text-primary duration-500">Terms & Conditions</a></li>
-	                <li><a href="javascript:void(0);" class="text-lightgary xl:text-base text-sm font-Urbanist hover:text-primary duration-500">Privacy policy</a></li>
-	            </ul>
-	        </div>
-	    </div>
-	</footer>
-	<?php
-    include_once 'helpers.php';
+  <!-- <script src="./dist/js/app-1.2.min.js"></script> -->
 
-    // Get the base URL and version separately
-    $base_url = get_base_url();
-    $version = get_version();
-    ?>
-
-	<!-- <script src="./dist/js/app-1.2.min.js"></script> -->
-
-	<!-- <script src="</?php echo $base_url . '/dist/js/app.min.js?v=' . $version; ?>"></script> -->
-	<script src="<?php echo $base_url . 'dist/js/app-' . $version . '.min.js?v=' . $version; ?>"></script>
+  <!-- <script src="</?php echo $base_url . '/dist/js/app.min.js?v=' . $version; ?>"></script> -->
+  <script src="<?php echo $base_url . 'dist/js/app-' . $version . '.min.js?v=' . $version; ?>"></script>
 
 
-	</body>
+  </body>
 
-	</html>
+  </html>

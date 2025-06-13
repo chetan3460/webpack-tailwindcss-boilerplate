@@ -3,155 +3,618 @@
 
 
 
+<!-- hero -->
 
-<section class="xl:py-200 pt-150 pb-80 bg-[#F5F5F5]  benner-3">
-    <div class="container">
-        <div class="relative max-md:ml-50 max-sm:ml-20">
-            <h1 class="xxl:text-10xl xl:text-9xl md:text-8.5xl sm:text-6xl text-5xl uppercase font-bold font-sora leading-[1.2] text-secondary">Advanced</h1>
-            <div class="flex items-center max-lg:flex-wrap max-lg:flex-col-reverse max-lg:gap-20">
-                <div class="flex items-center w-full">
-                    <ul class="flex ml-14">
-                        <li class="-ml-15"><img src="https://madula.dexignlab.com/tailwind/demo/assets/img/team-2.png" alt="img" class="rounded-full"></li>
-                        <li class="-ml-15"><img src="https://madula.dexignlab.com/tailwind/demo/assets/img/team-2.png" alt="img" class="rounded-full"></li>
-                        <li class="-ml-15"><img src="https://madula.dexignlab.com/tailwind/demo/assets/img/team-2.png" alt="img" class="rounded-full"></li>
-                    </ul>
-                    <h4 class="md:text-5.2xl text-4.5xl font-bold pl-5 text-secondary font-sora">25K</h4>
-                    <h5 class="sm:text-base text-sm w-1/2 pl-10 leading-24 font-sora text-secondary">Member Are Connected</h5>
+<section class="wrapper !bg-[#edf2fc]  pt-14">
+    <div class="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-28 lg:pb-28 md:pb-28">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+            <div class="md:w-10/12 md:!ml-[8.33333333%] lg:!ml-0 lg:w-5/12 xl:!ml-0 xl:w-5/12 w-full flex-[0_0_auto] !px-[15px] xl:!px-[35px] lg:!px-[20px] !mt-[50px] max-w-full lg:!mt-[-.5rem] xl:!mt-[-.5rem] text-center lg:text-left xl:text-left order-2 lg:!order-none xl:!order-none" data-cues="slideInDown" data-group="page-title" data-delay="600">
+                <h1 class="xl:!text-[2.6rem] !text-[calc(1.385rem_+_1.62vw)] !leading-[1.1] !font-DMSerif !font-normal !tracking-normal [word-spacing:normal!important] !mb-5 md:mx-10 lg:mx-0">Sandbox is effortless and powerful with <br><span class="typer !text-[#3f78e0]  whitespace-nowrap" data-delay="100" data-words="easy usage,fast transactions,secure payments"></span><span class="cursor !text-[#3f78e0] " data-owner="typer"></span></h1>
+                <p class="lead !text-[1.05rem] !leading-[1.6] font-medium !mb-7">Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.</p>
+                <div class="flex justify-center lg:!justify-start xl:!justify-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                    <span><a class="btn btn-lg btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0]   active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] rounded !mr-2">Get Started</a></span>
+                    <span><a class="btn btn-lg btn-green !text-white !bg-[#45c4a0] border-[#45c4a0] hover:text-white hover:bg-[#45c4a0] hover:!border-[#45c4a0]   active:text-white active:bg-[#45c4a0] active:border-[#45c4a0] disabled:text-white disabled:bg-[#45c4a0] disabled:border-[#45c4a0]  rounded">Free Trial</a></span>
                 </div>
-                <h2 class="xxl:text-9.5xl xl:text-9xl md:text-8.5xl sm:text-6xl text-5xl uppercase font-bold font-sora text-secondary leading-[1.2]"><span class="text-white relative z-[1] before:absolute before:size-full before:bg-[linear-gradient(270deg,#ff000000,var(--common-colour))] before:z-[-1] before:top-0">Den</span>tistry</h2>
             </div>
-
+            <!-- /column -->
+            <div class="xl:w-7/12 lg:w-7/12 w-full flex-[0_0_auto] !px-[15px] xl:!px-[35px] lg:!px-[20px] !mt-[50px] max-w-full">
+                <div class="flex flex-wrap mx-[-15px]">
+                    <div class="w-3/12 !ml-[8.33333333%] lg:!ml-0 lg:w-4/12 xl:!ml-0 xl:w-4/12 flex-[0_0_auto] !px-[15px] max-w-full flex flex-col" data-cues="zoomIn" data-group="col-start" data-delay="300">
+                        <div class="ml-auto !mt-auto"><img class="!max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa20.jpg" srcset="./assets/img/photos/sa20@2x.jpg 2x" alt="image"></div>
+                        <div class="ml-auto !mt-5 !mb-10"><img class="!max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa18.jpg" srcset="./assets/img/photos/sa18@2x.jpg 2x" alt="image"></div>
+                    </div>
+                    <!-- /column -->
+                    <div class="w-4/12 lg:w-5/12 xl:w-5/12 flex-[0_0_auto] !px-[15px] max-w-full" data-cue="zoomIn">
+                        <div><img class="w-full max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa16.jpg" srcset="./assets/img/photos/sa16@2x.jpg 2x" alt="image"></div>
+                    </div>
+                    <!-- /column -->
+                    <div class="w-3/12 flex-[0_0_auto] !px-[15px] max-w-full flex flex-col" data-cues="zoomIn" data-group="col-end" data-delay="300">
+                        <div class="!mt-auto"><img class="!max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa21.jpg" srcset="./assets/img/photos/sa21@2x.jpg 2x" alt="image"></div>
+                        <div class="!mt-5"><img class="!max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa19.jpg" srcset="./assets/img/photos/sa19@2x.jpg 2x" alt="image"></div>
+                        <div class="!mt-5 !mb-10"><img class="!max-w-full h-auto rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" src="./assets/img/photos/sa17.jpg" srcset="./assets/img/photos/sa17@2x.jpg 2x" alt="image"></div>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /column -->
         </div>
+        <!-- /.row -->
     </div>
-
+    <!-- /.container -->
 </section>
 
 
 
-<div class="swiper image-slider">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <figure class="overflow-hidden">
-                <img src="https://madula.dexignlab.com/tailwind/demo/assets/img/image-slider-2.jpg" alt="img" class="lg:h-[100vh] h-auto object-cover w-full">
-            </figure>
+<!-- Clients -->
+<section class="wrapper !bg-[#ffffff]">
+    <div class="container py-[4.5rem] xl:pt-28 lg:pt-28 md:pt-28">
+        <h2 class="!text-[.75rem] !leading-[1.35] font-bold [word-spacing:0.1rem] !tracking-[0.02rem] uppercase !text-[#aab0bc] !text-center !mb-8">Trusted by Over 5000 Clients</h2>
+        <div class="xl:!px-5 lg:!px-5 !mb-[4.5rem] xl:!mb-[9rem] lg:!mb-[9rem] md:!mb-[9rem]">
+            <div class="swiper-container clients !mb-0 relative z-10" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-xs="2">
+                <div class="swiper">
+                    <div class="swiper-wrapper ticker">
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c1.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c2.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c3.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c4.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c5.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c6.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c7.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c8.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c9.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c10.png" alt="image"></div>
+                        <div class="swiper-slide px-5"><img class="!w-full !h-auto" src="./assets/img/brands/c11.png" alt="image"></div>
+                    </div>
+                    <!--/.swiper-wrapper -->
+                </div>
+                <!-- /.swiper -->
+            </div>
         </div>
-        <div class="swiper-slide">
-            <figure class="overflow-hidden">
-                <img src="https://madula.dexignlab.com/tailwind/demo/assets/img/image-slider-2.jpg" alt="img" class="lg:h-[100vh] h-auto object-cover w-full">
-            </figure>
+        <!-- /div -->
+        <div class="flex flex-wrap mx-[-15px]">
+            <div class="md:w-10/12 md:!ml-[8.33333333%] lg:w-8/12 lg:!ml-[16.66666667%] xl:w-8/12 xl:!ml-[16.66666667%] w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !text-center">
+                <h2 class="!text-[.75rem] uppercase !text-[#aab0bc] !mb-3 !tracking-[0.02rem] !leading-[1.35]">Why Choose Sandbox?</h2>
+                <h3 class="xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !leading-[1.2] !font-DMSerif !font-normal !tracking-normal [word-spacing:normal!important] !mb-10 xl:!px-10 xxl:!px-20">Here are a few reasons why our customers choose Sandbox.</h3>
+            </div>
+            <!-- /column -->
         </div>
+        <!-- /.row -->
+        <ul class="nav nav-tabs nav-tabs-bg flex justify-between nav-justified xl:!flex-row lg:!flex-row flex-col">
+            <li class="nav-item !mb-[20px]"> <a class="nav-link !flex flex-row hover:!shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] active" data-bs-toggle="tab" href="#tab2-1">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.2 409.6" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] !text-[#fab758] text-yellow !mr-4">
+                            <path class="lineal-stroke" d="M31.2 342.9c-2.4 1.7-5.8 1.1-7.5-1.3-.6-.9-1-2-1-3.1v-77.1l68.9-77.2V150L5 247.1c-3.2 3.6-5 8.2-5 13v78.4c0 15.5 12.6 28.1 28.1 28.1 5.8 0 11.5-1.8 16.2-5.1l9.6-6.8-13.1-18.6-9.6 6.8zm258.1-95.8L200.7 148v34.2l70.8 79.3v77.1c0 3-2.4 5.4-5.4 5.4-1.1 0-2.2-.3-3.1-1l-9.6-6.7-13.1 18.6 9.6 6.7c12.7 8.9 30.3 5.9 39.2-6.9 3.3-4.7 5.1-10.4 5.1-16.1v-78.4c0-4.8-1.8-9.5-4.9-13.1zM147.1 409.6l-6.1-3.9c-2-1.3-49.3-32-49.3-72.5 0-40 23.3-72.6 53.1-74.2.8 0 1.6-.1 2.3-.1 4.1 0 8.1.6 12.1 1.7 9.1 2.7 17.6 8.4 24.6 16.6 11.9 14 18.7 34.4 18.7 55.9 0 40.5-47.2 71.2-49.3 72.5l-6.1 4zm0-127.9h-1c-17.5.9-31.7 24-31.7 51.5 0 19.6 19.9 39.1 32.6 48.9 12.7-9.8 32.6-29.3 32.6-48.9 0-16.2-4.9-31.2-13.3-41.1-4.1-4.8-8.8-8.1-13.6-9.5-1.8-.6-3.7-.9-5.6-.9z" />
+                            <path class="lineal-fill" d="M147.1 11.4c-13.1 0-96.4 71.4-96.4 143.4 0 24.5 29.3 178.4 29.3 178.4h134.1s29.3-153.9 29.3-178.4c.1-72.4-83.9-143.4-96.3-143.4zm49.8 159.2c-1 4.9-2.7 9.6-5.1 14-.8 1.4-1.6 2.8-2.5 4.2-3.7 5.4-8.3 10.1-13.7 13.7-1.3.9-2.7 1.8-4.2 2.5-24.7 13.4-55.6 4.2-68.9-20.5s-4.2-55.6 20.5-68.9c7.4-4 15.8-6.2 24.3-6.1 3.4 0 6.9.3 10.2 1 4.9 1 9.6 2.7 14 5.1 7.2 3.9 13.4 9.5 17.9 16.3 5.7 8.4 8.7 18.3 8.7 28.4-.1 3.5-.4 6.9-1.2 10.3z" />
+                            <path class="lineal-stroke" d="M147.1 222.6c-34.4 0-62.2-28-62.2-62.3 0-34.4 28-62.2 62.3-62.2 10.3 0 20.4 2.6 29.5 7.5 2.6 1.4 5.2 3.1 7.6 4.9 24.8 18.5 32.2 52.4 17.5 79.6-1 1.8-2 3.5-3.1 5.1-4.5 6.6-10.2 12.3-16.8 16.8-1.6 1.1-3.4 2.2-5.1 3.1-9.1 4.9-19.3 7.5-29.7 7.5zm0-101.7c-21.8-.3-39.7 17-40.1 38.8s17 39.7 38.8 40.1h1.3c2.7 0 5.4-.3 8-.8 3.8-.8 7.4-2.1 10.8-4 1.1-.6 2.2-1.3 3.2-2 4.2-2.8 7.8-6.5 10.7-10.7.7-1.1 1.4-2.1 2-3.3 1.9-3.4 3.2-7 4-10.8.5-2.6.8-5.3.8-8 0-12.5-5.9-24.2-15.9-31.6-1.5-1.1-3.1-2.2-4.8-3.1-3.4-1.9-7-3.2-10.8-4-2.6-.5-5.3-.8-8-.8v.2z" />
+                            <path class="lineal-stroke" d="M89.5 321.8h115.2c9-47.9 27.4-149.1 27.4-167 0-63-69.5-123.9-85-131.5-6.7 3.3-26.8 18.4-46.8 43.2-24.6 30.4-38.2 61.8-38.2 88.4 0 17.9 18.4 119.1 27.4 166.9zm134.1 22.8H70.7l-1.8-9.3c-3-15.9-29.5-155.7-29.5-180.6 0-42.2 25-80.9 45.9-106C101.1 29.9 131.8 0 147.1 0c15 0 45.7 29.8 61.5 48.6 21.1 25.1 46.2 63.8 46.2 106.2 0 24.9-26.5 164.7-29.5 180.6l-1.7 9.2z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="!mb-[.25rem]">Easy Usage</h4>
+                        <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
+                    </div>
+                </a> </li>
+            <li class="nav-item !mb-[20px]"> <a class="nav-link !flex flex-row hover:!shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" data-bs-toggle="tab" href="#tab2-2">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 465.5" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] !text-[#45c4a0] text-green !mr-4">
+                            <path class="lineal-stroke" d="M156.8 465.5c-9.9 0-24.2-4.8-56.2-40.6-16.2-18.2-29.5-36-30.1-36.8-.4-.5-.7-1-1-1.6-6.1-11-9.3-23.3-9.3-35.8v-90.9c0-7.9 6.4-14.4 14.3-14.4h116c16.5 0 32.4 6.5 44.2 18.1l59.4 58.5c17.2 17.2 17.3 45.1.1 62.3s-45.1 17.3-62.3.1L172.7 325c-5.9 0-15.5-.1-23.1-.1l-10.8-.1c-7.9 0-14.3-6.5-14.3-14.4s6.5-14.3 14.4-14.3h.1l10.8.1c6.8 0 14.1.1 19.6.1h6.9c4.2 0 8.5.1 12.7 4.3l63.5 63.5c6 6 15.7 6 21.7 0s6-15.7 0-21.7L214.6 284c-6.4-6.3-15-9.9-24-9.8H88.9v76.5c0 7.4 1.8 14.6 5.2 21.1 2.6 3.5 13.6 17.9 26.5 32.4 25.5 28.8 35.2 32.2 36.5 32.6h155.1c10.6 0 22.9-5.5 34.6-11.2 9.9-4.8 83.3-54.6 127.3-84.9l.7-.5c8.2-5.1 10.7-15.8 5.6-23.9-4.9-7.9-15.2-10.5-23.3-6L350 381.4c-6.6 4.4-15.5 2.6-19.9-4-4.4-6.6-2.6-15.5 4-19.9l107.5-71.3c.2-.1.3-.2.5-.3 21.8-13.1 50.1-6 63.2 15.8 12.9 21.6 6.2 49.6-15.2 62.8-13.3 9.2-115.8 79.6-130.8 86.9-14.7 7.1-30.5 14.1-47.1 14.1H156.8z" />
+                            <path class="lineal-fill" d="M14.4 242.2h84.2v189.6H14.4z" />
+                            <path class="lineal-stroke" d="M98.5 446.1H14.4c-7.9 0-14.4-6.4-14.4-14.4V242.2c0-7.9 6.4-14.4 14.3-14.4h84.1c7.9 0 14.3 6.4 14.3 14.4v189.6c.1 7.9-6.3 14.3-14.2 14.3zm-69.8-28.7h55.4V256.5H28.7v160.9zM273 214.2c-59.2 0-107.1-48-107.1-107.1C165.9 47.9 213.9 0 273.1 0c59.1 0 107.1 48 107.1 107.1-.1 59.1-48.1 107.1-107.2 107.1zm0-185.5c-43.3 0-78.4 35.1-78.4 78.4s35.1 78.4 78.4 78.4c43.3 0 78.4-35.1 78.4-78.4-.1-43.3-35.1-78.3-78.4-78.4z" />
+                            <circle class="lineal-fill" cx="348.9" cy="178.6" r="92.8" />
+                            <path class="lineal-stroke" d="M348.9 285.7c-59.1 0-107.1-47.9-107.1-107.1 0-59.1 47.9-107.1 107.1-107.1S456 119.4 456 178.6c-.1 59.1-48 107-107.1 107.1zm0-185.5c-43.3 0-78.4 35.1-78.4 78.4S305.7 257 349 257s78.4-35.1 78.4-78.4c-.1-43.3-35.2-78.4-78.5-78.4z" />
+                            <path class="lineal-stroke" d="M345.4 224.9c-15.5-.5-28.2-8.5-28.2-16.8 0-4.4 3.9-10.9 8.8-10.9 5.4 0 9.8 7.6 19.4 9.3v-20.9c-11.9-4.5-25.9-10.1-25.9-26.6s12.1-24.3 25.9-26.2v-3.6c0-1.8 2.1-3.5 4.9-3.5 2.5 0 4.9 1.7 4.9 3.5v3.2c8 .3 23.1 2.3 23.1 11.2 0 3.5-2.3 10.6-8 10.6-4.3 0-6.7-4.1-15.1-4.8v18.9c11.8 4.4 25.5 10.5 25.5 27.9 0 16-10.4 25.7-25.5 28.2v3.8c0 1.8-2.5 3.5-4.9 3.5-2.9 0-4.9-1.7-4.9-3.5v-3.3zm1.3-59.7v-15.4c-5.8 1.2-8.3 4.1-8.3 7.2 0 3.8 3.4 6.1 8.3 8.2zm7.2 23.9v17.3c4.4-1 7.9-3.5 7.9-8.1 0-4.3-3.2-7-7.9-9.2z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="!mb-[.25rem]">Fast Transactions</h4>
+                        <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
+                    </div>
+                </a> </li>
+            <li class="nav-item !mb-[20px]"> <a class="nav-link !flex flex-row hover:!shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]" data-bs-toggle="tab" href="#tab2-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339.8 409.6" class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] !text-[#e2626b] text-red !mr-4">
+                            <path class="lineal-stroke" d="M169.9 409.6c-5.5 0-10.9-1.2-15.8-3.5C107.8 384.8 0 327.5 0 255.5V72.1c0-10.7 8.7-19.4 19.4-19.5 2.1 0 4.2.3 6.1 1 9.2 3.1 18.9 4.7 28.6 4.6 31.5.1 60.7-16.3 76.9-43.3C136.6 5.7 146.6 0 157.4 0h25c10.8.1 20.8 5.7 26.4 14.9 16.2 27 45.4 43.4 76.9 43.3 9.7 0 19.4-1.6 28.6-4.6 10.2-3.4 21.2 2.1 24.6 12.3.7 2 1 4.1 1 6.1v48c0 6.5-5.3 11.8-11.7 11.8-6.5 0-11.8-5.3-11.8-11.7V77.6c-10 2.8-20.3 4.2-30.6 4.2-39.7.2-76.5-20.6-97-54.6-1.3-2.2-3.7-3.6-6.3-3.6h-25c-2.6 0-5 1.4-6.3 3.6-20.5 34-57.3 54.8-97 54.6-10.3 0-20.6-1.4-30.6-4.2v178c0 47.7 72.5 98 140.4 129.3 3.8 1.7 8.2 1.7 12 0 67.9-31.3 140.4-81.6 140.4-129.3v-74.9c0-6.5 5.3-11.8 11.8-11.7 6.5 0 11.7 5.3 11.7 11.7v74.9c0 72-107.8 129.3-154.1 150.6-5 2.2-10.4 3.4-15.9 3.4z" />
+                            <path class="lineal-fill" d="M156 269l-62.2-31.1c-11.8-5.9-16.6-20.2-10.7-32 5.9-11.8 20.2-16.6 32-10.7l44.9 22.5 56.6-70.7c8.2-10.3 23.2-12 33.5-3.7 10.3 8.2 12 23.2 3.7 33.5l-68.6 85.8c-6.9 8.8-19.1 11.5-29.2 6.4z" />
+                            <path class="lineal-stroke" d="M166.7 283.3c-5.5 0-11-1.3-15.9-3.8l-62.2-31.1c-17.6-8.8-24.7-30.2-15.9-47.8s30.2-24.7 47.8-15.9l36.4 18.2 50.6-63.3c12.3-15.4 34.7-17.9 50.1-5.6 15.4 12.3 17.9 34.7 5.6 50.1l-68.6 85.8c-6.8 8.5-17.1 13.4-27.9 13.4zm-62.2-78.8c-6.7 0-12.1 5.4-12.1 12.1 0 4.6 2.6 8.8 6.7 10.8l62.2 31.1c5.1 2.6 11.3 1.2 14.9-3.3l68.6-85.8c4.3-5.1 3.7-12.8-1.4-17.1-5.1-4.3-12.8-3.7-17.1 1.4-.1.2-.3.3-.4.5l-56.6 70.7c-3.5 4.3-9.5 5.6-14.4 3.2L110 205.6c-1.7-.7-3.6-1.1-5.5-1.1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="!mb-[.25rem]">Secure Payments</h4>
+                        <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
+                    </div>
+                </a> </li>
+        </ul>
+        <!-- /.nav-tabs -->
+        <div class="tab-content !mt-6 lg:!mt-8 xl:!mt-8 xl:!mb-9 lg:!mb-9 md:!mb-9">
+            <div class="tab-pane fade show active" id="tab2-1">
+                <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+                        <div class="flex flex-wrap mx-[-12.5px] !mt-[-25px] items-center">
+                            <div class="w-6/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex !ml-auto" src="./assets/img/photos/sa13.jpg" srcset="./assets/img/photos/sa13@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                            <div class="w-6/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] !mb-5" src="./assets/img/photos/sa14.jpg" srcset="./assets/img/photos/sa14@2x.jpg 2x" alt="image">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex !w-10/12 flex-[0_0_auto]" src="./assets/img/photos/sa15.jpg" srcset="./assets/img/photos/sa15@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+                        <h2 class="!mb-3 !leading-[1.35]">Easy Usage</h2>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+                        <ul class="pl-0 list-none bullet-bg bullet-soft-yellow">
+                            <li class="relative !pl-6"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Nullam quis risus eget urna mollis ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Donec id elit non mi porta gravida at eget.</li>
+                        </ul>
+                        <a href="#" class="btn btn-yellow !text-white !bg-[#fab758] border-[#fab758] hover:text-white hover:bg-[#fab758] hover:!border-[#fab758]   active:text-white active:bg-[#fab758] active:border-[#fab758] disabled:text-white disabled:bg-[#fab758] disabled:border-[#fab758] !mt-2">Learn More</a>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-2">
+                <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px] xl:!order-2 lg:!order-2">
+                        <div class="flex flex-wrap mx-[-15px] xl:mx-[-12.5px] lg:mx-[-12.5px] md:mx-[-12.5px] !mt-[-25px]">
+                            <div class="w-5/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] my-5 flex !ml-auto" src="./assets/img/photos/sa9.jpg" srcset="./assets/img/photos/sa9@2x.jpg 2x" alt="image">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex !w-10/12 flex-[0_0_auto] !ml-auto" src="./assets/img/photos/sa10.jpg" srcset="./assets/img/photos/sa10@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                            <div class="w-7/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] !mb-5" src="./assets/img/photos/sa11.jpg" srcset="./assets/img/photos/sa11@2x.jpg 2x" alt="image">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex w-11/12 flex-[0_0_auto]" src="./assets/img/photos/sa12.jpg" srcset="./assets/img/photos/sa12@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+                        <h2 class="!mb-3 !leading-[1.35]">Fast Transactions</h2>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+                        <ul class="pl-0 list-none bullet-bg bullet-soft-green">
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#def4ee] !text-[#45c4a0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#def4ee] !text-[#45c4a0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Nullam quis risus eget urna mollis ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#def4ee] !text-[#45c4a0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Donec id elit non mi porta gravida at eget.</li>
+                        </ul>
+                        <a href="#" class="btn btn-green !text-white !bg-[#45c4a0] border-[#45c4a0] hover:text-white hover:bg-[#45c4a0] hover:!border-[#45c4a0]   active:text-white active:bg-[#45c4a0] active:border-[#45c4a0] disabled:text-white disabled:bg-[#45c4a0] disabled:border-[#45c4a0]  !mt-2">Learn More</a>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-3">
+                <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+                        <div class="flex flex-wrap mx-[-15px] xl:mx-[-12.5px] lg:mx-[-12.5px] md:mx-[-12.5px] !mt-[-25px]">
+                            <div class="w-6/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] !mb-5" src="./assets/img/photos/sa5.jpg" srcset="./assets/img/photos/sa5@2x.jpg 2x" alt="image">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex !w-10/12 flex-[0_0_auto] !ml-auto" src="./assets/img/photos/sa6.jpg" srcset="./assets/img/photos/sa6@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                            <div class="w-6/12 flex-[0_0_auto] xl:!px-[12.5px] lg:!px-[12.5px] md:!px-[12.5px] !px-[15px] max-w-full !mt-[25px]">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] my-5" src="./assets/img/photos/sa7.jpg" srcset="./assets/img/photos/sa7@2x.jpg 2x" alt="image">
+                                <img class="max-w-full h-auto rounded !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] flex !w-10/12 flex-[0_0_auto]" src="./assets/img/photos/sa8.jpg" srcset="./assets/img/photos/sa8@2x.jpg 2x" alt="image">
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+                        <h2 class="!mb-3 !leading-[1.35]">Secure Payments</h2>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+                        <ul class="pl-0 list-none bullet-bg bullet-soft-red">
+                            <li class="relative !pl-6"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#fae3e4] !text-[#e2626b] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#fae3e4] !text-[#e2626b] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Nullam quis risus eget urna mollis ornare.</li>
+                            <li class="relative !pl-6 !mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center bg-[#fae3e4] !text-[#e2626b] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Donec id elit non mi porta gravida at eget.</li>
+                        </ul>
+                        <a href="#" class="btn btn-red !text-white !bg-[#e2626b] border-[#e2626b] hover:text-white hover:bg-[#e2626b] hover:!border-[#e2626b]   active:text-white active:bg-[#e2626b] active:border-[#e2626b] disabled:text-white disabled:bg-[#e2626b] disabled:border-[#e2626b] !mt-2">Learn More</a>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+        </div>
+        <!-- /.tab-content -->
     </div>
-    <div class="swiper-button">
-        <div class="swiper-button-next"><span>Next</span></div>
-        <div class="swiper-button-prev"><span>Preview</span></div>
-    </div>
-</div>
+    <!-- /.container -->
+</section>
 
 
 
-<section class="xl:py-120 lg:py-100 sm:py-80 pt-60">
-    <div class="container">
-        <div class="text-center sm:m-auto lg:w-[60%] w-full lg:pb-50 pb-30">
-            <span
-                class="pb-10 black font-sora font-semibold capitalize xxl:text-xxl xl:text-xl sm:text-lg leading-50 text-primary xxl:leading-60">#
-                Dental Services</span>
-            <h2
-                class="xxl:text-5xl  xl:text-4.65xl md:text-3.8xl sm:text-3xl text-2.5xl font-semibold font-sora  text-secondary leading-[1.2]">
-                Dental Care for Every Smile.</h2>
+<section class="wrapper !bg-[#ffffff] ">
+    <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <div class="flex flex-wrap mx-[-15px]">
+            <div class="xl:w-10/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
+                <div class="flex flex-wrap mx-[-15px] items-center counter-wrapper !mt-[-30px] !text-center">
+                    <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                        <img src="./assets/img/icons/lineal/check.svg" class="svg-inject icon-svg icon-svg-lg !text-[#3f78e0] !mb-3 m-[0_auto]" alt="image">
+                        <h3 class="counter xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">7518</h3>
+                        <p class="!m-0">Completed Projects</p>
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                        <img src="./assets/img/icons/lineal/user.svg" class="svg-inject icon-svg icon-svg-lg !text-[#3f78e0] !mb-3 m-[0_auto]" alt="image">
+                        <h3 class="counter xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">3472</h3>
+                        <p class="!m-0">Happy Customers</p>
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-lg !text-[#3f78e0] !mb-3 m-[0_auto]" alt="image">
+                        <h3 class="counter xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">2184</h3>
+                        <p class="!m-0">Expert Employees</p>
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-3/12 lg:w-3/12 md:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                        <img src="./assets/img/icons/lineal/award-2.svg" class="svg-inject icon-svg icon-svg-lg !text-[#3f78e0] !mb-3 m-[0_auto]" alt="image">
+                        <h3 class="counter xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">4523</h3>
+                        <p class="!m-0">Awards Won</p>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /column -->
         </div>
-        <div class="grid grid-cols-12 gap-25 3xl:-mx-110">
-
-
-            <div class="lg:col-span-3 md:col-span-6 col-span-12 group">
-                <div
-                    class="dental-services relative stroke-secondary border border-[#D8D8D8] text-center p-30 before:content-[''] before:absolute before:bg-[var(--theme-colour)] before:w-full before:h-0 before:[#000] before:bottom-0 before:left-0 group-hover:before:h-full before:duration-500">
-                    <h3><a href="services-details.html"
-                            class="3xl:text-2xl text-xl font-bold pb-16 block relative font-sora text-secondary group-hover:text-white duration-500">
-                            General Dentistry</a></h3>
-                    <i class="size-90 border border-[#d8d8d8] flex items-center rounded-full justify-center mx-auto mb-10 relative group-hover:bg-white duration-500">
-                        <svg class="group-hover:[transform:rotate3d(1,1,1,360deg)] duration-500" width="45" height="47" viewBox="0 0 45 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M43.5125 16.973C43.7364 16.8433 43.8999 16.6296 43.9668 16.379C44.0337 16.1284 43.9987 15.8614 43.8694 15.6367L39.9691 8.85935C39.8415 8.63609 39.6313 8.47231 39.3841 8.40348C39.1346 8.33658 38.8687 8.37176 38.645 8.5013L27.3753 15.0263V1.97826C27.3753 1.71881 27.2726 1.46999 27.0897 1.28653C26.9068 1.10307 26.6588 1 26.4002 1H18.5998C18.3412 1 18.0932 1.10307 17.9103 1.28653C17.7274 1.46999 17.6247 1.71881 17.6247 1.97826V15.0243L6.36279 8.5013C6.13884 8.37158 5.8727 8.33643 5.62292 8.40358C5.37314 8.47072 5.16017 8.63467 5.03086 8.85935L1.13063 15.6367C1.00134 15.8614 0.966298 16.1284 1.03322 16.379C1.10015 16.6296 1.26356 16.8433 1.4875 16.973L12.7494 23.5L1.4875 30.023C1.26356 30.1528 1.10015 30.3664 1.03322 30.617C0.966298 30.8676 1.00134 31.1347 1.13063 31.3593L5.03086 38.1367C5.16017 38.3614 5.37314 38.5254 5.62292 38.5925C5.8727 38.6597 6.13884 38.6245 6.36279 38.4948L17.6247 31.9698V45.0217C17.6247 45.2812 17.7274 45.53 17.9103 45.7135C18.0932 45.8969 18.3412 46 18.5998 46H26.4002C26.6588 46 26.9068 45.8969 27.0897 45.7135C27.2726 45.53 27.3753 45.2812 27.3753 45.0217V31.9698L38.6392 38.4948C38.8629 38.6243 39.1287 38.6595 39.3783 38.5926C39.6254 38.5238 39.8356 38.36 39.9633 38.1367L43.8635 31.3593C43.9928 31.1347 44.0279 30.8676 43.9609 30.617C43.894 30.3664 43.7306 30.1528 43.5066 30.023L32.2506 23.5L43.5125 16.973Z" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </i>
-                    <p
-                        class="pb-20 relative text-base leading-30 text-gary font-normal group-hover:text-white duration-500">
-                        Routine check-ups, cleanings, and preventive care to maintain oral health.</p>
-                    <a href="services-details.html"
-                        class="btn hover:bg-secondary hover:text-white hover:border-transparent two max-xxl:px-30"><span>Read
-                            more<i class="fa-solid fa-arrow-right"></i></span></a>
-                </div>
-            </div>
-            <div class="lg:col-span-3 md:col-span-6 col-span-12 group">
-                <div
-                    class="dental-services relative stroke-secondary border border-[#D8D8D8] text-center p-30 before:absolute before:w-full before:h-0 before:bg-[var(--theme-colour)] before:bottom-0 before:left-0 group-hover:before:h-full before:duration-500">
-                    <h3><a href="services-details.html"
-                            class="3xl:text-2xl text-xl font-bold pb-16 block relative font-sora text-secondary group-hover:text-white duration-500">
-                            Cosmetic Dentistry</a></h3>
-                    <i
-                        class="size-90 border border-[#d8d8d8] flex items-center rounded-full justify-center mx-auto mb-10 relative group-hover:bg-white duration-500">
-                        <svg class="group-hover:[transform:rotate3d(1,1,1,360deg)] duration-500" width="45"
-                            height="47" viewBox="0 0 45 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M40.834 24.9998H38.834C38.1306 24.9981 37.4495 24.7582 36.9054 24.3206C36.3613 23.8831 35.9876 23.2746 35.8475 22.5979L34.8047 17.4503C22.623 17.4503 22.5 11.4979 22.5 11.4979C22.5 11.4979 22.3727 17.4482 10.1952 17.4482L9.15244 22.5979C9.01183 23.2748 8.63776 23.8833 8.09332 24.3208C7.54889 24.7584 6.86742 24.9982 6.16385 24.9998H4.16173M19.4446 25.0593C19.1204 24.562 18.6653 24.16 18.1274 23.8958C17.5896 23.6316 16.9891 23.515 16.3893 23.5584C15.7895 23.515 15.189 23.6316 14.6512 23.8958C14.1133 24.16 13.6582 24.562 13.334 25.0593M31.6764 25.0592C31.3522 24.5619 30.8971 24.1599 30.3592 23.8957C29.8214 23.6315 29.2209 23.5149 28.6211 23.5583C28.021 23.5145 27.42 23.6309 26.8818 23.8952C26.3435 24.1594 25.8881 24.5616 25.5637 25.0592M22.5 46C17.9118 46 8.78126 43.7046 7.44651 35.7886C7.34747 35.2389 7.09227 34.7279 6.71031 34.3144C6.50325 34.3475 6.29429 34.368 6.08465 34.3758C4.90799 34.3725 3.76869 33.9698 2.85994 33.2359C1.95119 32.502 1.32891 31.4822 1.09862 30.3493C0.86833 29.2164 1.0442 28.0401 1.5964 27.02C2.14861 25.9998 3.04317 25.1986 4.12841 24.7521C2.6435 15.7959 2.87708 1 22.5 1C42.1229 1 42.3565 15.7939 40.8716 24.7521V24.7603C41.9568 25.2068 42.8514 26.008 43.4036 27.0282C43.9558 28.0483 44.1317 29.2246 43.9014 30.3575C43.6711 31.4904 43.0488 32.5102 42.1401 33.2441C41.2313 33.978 40.092 34.3807 38.9153 34.384C38.7113 34.3766 38.5079 34.3568 38.3064 34.3246C37.9264 34.7394 37.6715 35.2499 37.5702 35.7989C36.2208 43.7046 27.0882 46 22.5 46ZM22.5 46C18.3289 46 10.3746 44.0774 7.98872 37.7462V29.7012M22.5 46C26.7733 46 34.9945 43.9996 37.1864 37.3285V29.7012M37.1864 29.7012C27.6527 32.4327 17.5224 32.4327 7.98872 29.7012M37.1864 29.7012L40.3148 25.6058M7.98872 29.7012L4.86039 25.6058"
-                                stroke="#021935" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </i>
-                    <p
-                        class="pb-20 relative text-base leading-30 text-gary font-normal group-hover:text-white duration-500">
-                        Routine check-ups, cleanings, and preventive care to maintain oral health.</p>
-                    <a href="services-details.html"
-                        class="btn hover:bg-secondary hover:text-white hover:border-transparent two max-xxl:px-30"><span>Read
-                            more<i class="fa-solid fa-arrow-right"></i></span></a>
-                </div>
-            </div>
-            <div class="lg:col-span-3 md:col-span-6 col-span-12 group">
-                <div
-                    class="dental-services relative stroke-secondary border border-[#D8D8D8] text-center p-30 before:absolute before:w-full before:h-0 before:bg-[var(--theme-colour)] before:bottom-0 before:left-0 group-hover:before:h-full before:duration-500">
-                    <h3><a href="services-details.html"
-                            class="3xl:text-2xl text-xl font-bold pb-16 block relative font-sora text-secondary group-hover:text-white duration-500">Restorative
-                            Dentistry</a></h3>
-                    <i
-                        class="size-90 border border-[#d8d8d8] flex items-center rounded-full justify-center mx-auto mb-10 relative group-hover:bg-white duration-500">
-                        <svg class="group-hover:[transform:rotate3d(1,1,1,360deg)] duration-500" width="48"
-                            height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M24.0001 17.016C34 17.016 42.3334 25.0511 46 29.0688C47.3333 30.5037 47.3333 32.5124 46 33.9474C42.3334 37.9648 34 46 24.0001 46C14 46 5.66667 38.2517 2 33.9474C0.666667 32.5124 0.666667 30.5037 2 29.0688C2.53746 28.4798 3.17521 27.8046 3.90377 27.0811M23.9984 38.6917C28.0116 38.6917 31.2649 35.4755 31.2649 31.5078C31.2649 27.5404 28.0116 24.3239 23.9984 24.3239C19.9855 24.3239 16.7322 27.5404 16.7322 31.5078C16.7322 35.4755 19.9855 38.6917 23.9984 38.6917ZM19.0061 16.0624C19.0061 11.6555 11.089 1 11.089 1C11.089 1 2.90582 11.6555 2.90582 16.0624C2.90582 18.1732 3.75394 20.1977 5.26365 21.6902C6.77335 23.1828 8.82095 24.0212 10.956 24.0212C13.091 24.0212 15.1386 23.1828 16.6483 21.6902C18.158 20.1977 19.0061 18.1732 19.0061 16.0624Z"
-                                stroke="#021935" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </i>
-                    <p
-                        class="pb-20 relative text-base leading-30 text-gary font-normal group-hover:text-white duration-500">
-                        Routine check-ups, cleanings, and preventive care to maintain oral health.</p>
-                    <a href="services-details.html"
-                        class="btn hover:bg-secondary hover:text-white hover:border-transparent two max-xxl:px-30"><span>Read
-                            more<i class="fa-solid fa-arrow-right"></i></span></a>
-                </div>
-            </div>
-            <div class="lg:col-span-3 md:col-span-6 col-span-12 group">
-                <div
-                    class="dental-services relative stroke-secondary border border-[#D8D8D8] text-center p-30 before:absolute before:w-full before:h-0 before:bg-[var(--theme-colour)] before:bottom-0 before:left-0 group-hover:before:h-full before:duration-500">
-                    <h3><a href="services-details.html"
-                            class="3xl:text-2xl text-xl font-bold pb-16 block relative font-sora text-secondary group-hover:text-white duration-500">Pediatric
-                            Dentistry</a></h3>
-                    <i
-                        class="size-90 border border-[#d8d8d8] flex items-center rounded-full justify-center mx-auto mb-10 relative group-hover:bg-white duration-500">
-                        <svg class="group-hover:[transform:rotate3d(1,1,1,360deg)] duration-500" width="44"
-                            height="47" viewBox="0 0 44 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7.10271 46V33.47C4.29238 30.9098 2.33244 27.5758 1.47885 23.9034C0.625239 20.231 0.917648 16.3907 2.31786 12.8842C3.71808 9.37764 6.16105 6.3678 9.32774 4.2477C12.4944 2.1276 16.2376 0.995768 20.0686 1.00001C34.5883 1.00001 37.7225 12.756 42.8987 25.96C42.9874 26.1874 43.0185 26.4324 42.9894 26.6742C42.9605 26.916 42.8721 27.1472 42.7319 27.348C42.592 27.5486 42.4043 27.7128 42.1854 27.8264C41.9664 27.94 41.7225 27.9996 41.475 28H37.6107V34C37.6107 35.5914 36.9678 37.1174 35.8235 38.2426C34.6793 39.3678 33.1272 40 31.5091 40H28.4583V46M17.2088 7.54045C18.3488 8.87667 19.0441 10.5247 19.2014 12.262C19.3584 13.9993 18.9695 15.7421 18.0872 17.2551C17.3074 17.3147 16.5339 17.081 15.9226 16.6013C15.3114 16.1217 14.908 15.4317 14.7941 14.6709C13.6261 15.2982 12.6646 16.2406 12.0229 17.3872C11.3812 18.5338 11.086 19.8368 11.172 21.1428C11.1726 23.204 12.0057 25.1804 13.4881 26.6378C14.9704 28.095 16.9806 28.9136 19.0767 28.9136C21.1638 28.8858 23.1574 28.0582 24.6334 26.607C26.1092 25.1556 26.9508 23.1952 26.9791 21.1428C27.2422 18.1068 26.4061 15.077 24.6186 12.5882C22.8308 10.0994 20.2065 8.31161 17.2088 7.54045Z"
-                                stroke="#021935" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </i>
-                    <p
-                        class="pb-20 relative text-base leading-30 text-gary font-normal group-hover:text-white duration-500">
-                        Routine check-ups, cleanings, and preventive care to maintain oral health.</p>
-                    <a href="services-details.html"
-                        class="btn  hover:bg-[var(--color-secondary)] hover:text-white hover:border-transparent two max-xxl:px-30"><span>Read
-                            more<i class="fa-solid fa-arrow-right"></i></span></a>
-                </div>
-            </div>
-        </div>
+        <!-- /.row -->
     </div>
 </section>
+<!-- /section -->
+
+
+<section class="wrapper !bg-[#ffffff]">
+    <div class="container">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+            <div
+                class="xl:w-7/12 lg:w-7/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full xl:!order-2 lg:!order-2">
+                <figure class="m-0 p-0"><img class="w-auto" src="./assets/img/illustrations/i8.png"
+                        srcset="./assets/img/illustrations/i8@2x.png 2x" alt="image"></figure>
+            </div>
+            <!--/column -->
+            <div
+                class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
+                <h2 class="!text-[0.8rem] !tracking-[0.02rem] uppercase !text-[#aab0bc] !mb-3 !leading-[1.35]">Our Solutions
+                </h2>
+                <h3 class="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-5">We make your
+                    spending stress-free for you to have the perfect control.</h3>
+                <p class="!mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
+                    justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.</p>
+                <div class="flex flex-wrap mx-[-15px] !mt-[-15px]">
+                    <div class="xl:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[15px] max-w-full !mt-[15px]">
+                        <ul class="pl-0 list-none bullet-bg bullet-soft-primary  !mb-0">
+                            <li class="relative !pl-6"><span><i
+                                        class="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0"></i></span><span>Aenean
+                                    quam ornare. Curabitur blandit.</span></li>
+                            <li class="relative !pl-6 !mt-3"><span><i
+                                        class="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0"></i></span><span>Nullam
+                                    quis risus eget urna mollis ornare.</span></li>
+                        </ul>
+                    </div>
+                    <!--/column -->
+                    <div class="xl:w-6/12 w-full flex-[0_0_auto] !px-[15px] !mt-[15px] max-w-full !mt-[15px]">
+                        <ul class="pl-0 list-none bullet-bg bullet-soft-primary  !mb-0">
+                            <li class="relative !pl-6"><span><i
+                                        class="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0"></i></span><span>Etiam
+                                    porta euismod malesuada mollis.</span></li>
+                            <li class="relative !pl-6 !mt-3"><span><i
+                                        class="uil uil-check w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex justify-center items-center bg-[#feeed9] !text-[#fab758] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell absolute left-0"></i></span><span>Vivamus
+                                    sagittis lacus vel augue rutrum.</span></li>
+                        </ul>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+
+
+<section class="slider-block type-1 wrapper !bg-[#ffffff] ">
+    <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <h2 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3 !text-center">Happy Customers</h2>
+        <p class="lead text-[0.9rem] font-medium !leading-[1.65] !text-center !mb-6 md:!px-24 lg:!px-0">Customer satisfaction is our major goal. See what our customers are saying about us.</p>
+        <div class="!relative">
+            <div class="shape !rounded-[50%] !bg-[#fff8ee] rellax !w-[6rem] !h-[6rem] absolute z-[1]" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem;"></div>
+            <div class="shape bg-dot primary rellax !w-[6rem] !h-[6rem] bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)] absolute z-[1] opacity-50" data-rellax-speed="1" style="top: -1rem; left: -1.7rem;"></div>
+
+            <div class="swiper-container dots-closer !mb-6 relative z-10" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Coriss Ambady</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Financial Analyst</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te2.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Cory Zamora</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Marketing Specialist</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te3.jpg" srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Nikolas Brooten</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Sales Manager</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te4.jpg" srcset="./assets/img/avatars/te4@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Coriss Ambady</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Financial Analyst</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te5.jpg" srcset="./assets/img/avatars/te5@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Jackie Sanders</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Investment Planner</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body flex-[1_1_auto] p-[40px]">
+                                        <blockquote class="!text-[0.85rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0 before:content-['\201d'] before:absolute before:top-[-1.5rem] before:left-[-0.9rem] before:text-[rgba(52,63,82,0.05)] before:text-[10rem] before:leading-none before:z-[1]">
+                                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                                            <div class="flex items-center text-left">
+                                                <img class="!rounded-[50%] !w-[3.5rem]" src="./assets/img/avatars/te6.jpg" srcset="./assets/img/avatars/te6@2x.jpg 2x" alt="image">
+                                                <div class="info !pl-4">
+                                                    <h5 class="!mb-1 text-[.95rem] !leading-[1.5]">Laura Widerski</h5>
+                                                    <p class="!mb-0 text-[.85rem]">Sales Specialist</p>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!--/.swiper-slide -->
+                    </div>
+                    <!--/.swiper-wrapper -->
+                </div>
+                <!-- /.swiper -->
+            </div>
+            <!-- /.swiper-container -->
+        </div>
+        <!-- /.relative -->
+    </div>
+</section>
+<!-- /section -->
+
+
+<section class="wrapper !bg-[#ffffff] ">
+    <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <h2 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3 !text-center">Pricing FAQ</h2>
+        <p class="lead text-[0.9rem] font-medium !leading-[1.65] !text-center !mb-10 md:!px-24 xl:!px-0 lg:!px-0">If you don't see an answer to your question, you can send us an email from our contact form.</p>
+        <div class="flex flex-wrap mx-[-15px]">
+            <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mb-0">
+                <div id="accordion-1" class="accordion-wrapper">
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-1-1">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1" aria-expanded="false" aria-controls="accordion-collapse-1-1">Can I cancel my subscription?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-1-2">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2" aria-expanded="false" aria-controls="accordion-collapse-1-2">Which payment methods do you accept?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-1-3">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-3" aria-expanded="false" aria-controls="accordion-collapse-1-3">How can I manage my Account?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-1-3" class="collapse" aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-1-4">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-4" aria-expanded="false" aria-controls="accordion-collapse-1-4">Is my credit card information secure?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-1-4" class="collapse" aria-labelledby="accordion-heading-1-4" data-bs-target="#accordion-1">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.accordion-wrapper -->
+            </div>
+            <!--/column -->
+            <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
+                <div id="accordion-2" class="accordion-wrapper">
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-1">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1" aria-expanded="false" aria-controls="accordion-collapse-2-1">How do I get my subscription receipt?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-2">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2" aria-expanded="false" aria-controls="accordion-collapse-2-2">Are there any discounts for people in need?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-3">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-3" aria-expanded="false" aria-controls="accordion-collapse-2-3">Do you offer a free trial edit?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-2-3" class="collapse" aria-labelledby="accordion-heading-2-3" data-bs-target="#accordion-2">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card accordion-item !mb-5">
+                        <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-4">
+                            <button class="hover:!text-[#3f78e0] collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-4" aria-expanded="false" aria-controls="accordion-collapse-2-4">How do I reset my Account password?</button>
+                        </div>
+                        <!-- /.card-header -->
+                        <div id="accordion-collapse-2-4" class="collapse" aria-labelledby="accordion-heading-2-4" data-bs-target="#accordion-2">
+                            <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.collapse -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.accordion-wrapper -->
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
+</section>
+<!-- /section -->
+
 
 <?php include('layout/footer.php'); ?>

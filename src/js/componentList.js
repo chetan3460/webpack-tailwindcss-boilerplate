@@ -1,6 +1,7 @@
 const bannerSlider = $(".banner-area");
 const upgradeSlider = $(".upgrade--section");
 const imageSlider = $(".image-slider");
+const SliderBlock = $(".slider-block");
 // Set 'mobile' to false to prevent JS from loading on mobile. Change the media query as desired in DynamicImports.js
 
 export const componentList = [
@@ -22,6 +23,12 @@ export const componentList = [
     element: imageSlider,
     // File Name
     className: "imageSlider",
+    mobile: true,
+  },
+  {
+    element: SliderBlock,
+    // File Name
+    className: "SliderBlock",
     mobile: true,
   },
 ];

@@ -15,17 +15,18 @@ module.exports = function (env, argv) {
 
     let mods = {
         watch: devMode,
-        // devtool: devMode ? 'source-map' : false,
         devtool: devMode ? 'source-map' : 'cheap-module-source-map',
 
         entry: {
-            app: ['./src/js/app.js', './src/css/app.css'],
+            app: ['./src/js/app.js', './src/css/app.css'], // Make sure you're using .css not .scss for Tailwind
         },
+
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: `js/[name]-${version.version}.min.js`,
             assetModuleFilename: 'fonts/[name][ext]',
         },
+
         module: {
             rules: [
                 {
@@ -40,7 +41,18 @@ module.exports = function (env, argv) {
                     },
                 },
                 {
-                    test: /\.s?css$/,
+                    test: /\.css$/i,
+                    use: [
+                        MiniCssExtractPlugin.loader,
+                        {
+                            loader: "css-loader",
+                            options: { url: false },
+                        },
+                        "postcss-loader", // Only use postcss here
+                    ],
+                },
+                {
+                    test: /\.scss$/i,
                     use: [
                         MiniCssExtractPlugin.loader,
                         {
@@ -60,6 +72,7 @@ module.exports = function (env, argv) {
                 },
             ],
         },
+
         plugins: [
             new RemoveEmptyScriptsPlugin(),
             new webpack.ProvidePlugin({
@@ -72,12 +85,12 @@ module.exports = function (env, argv) {
             }),
             new CleanWebpackPlugin(),
             new BrowserSyncPlugin({
-                proxy: "http://localhost/webpack-tailwindcss-boilerplate/", // ← change to your PHP local server path
+                proxy: "http://localhost/webpack-tailwindcss-boilerplate/", // Change to your local server path
                 files: [
                     "dist/css/*.css",
                     "dist/js/*.js",
                     "**/*.php",
-                    "src/scss/**/*.scss" // 👈 ADD THIS
+                    "src/scss/**/*.scss"
                 ],
                 port: 3000,
                 serveStatic: [{
@@ -86,19 +99,18 @@ module.exports = function (env, argv) {
                 }],
                 injectChanges: true,
                 notify: false,
-                // open: false,
             }, {
                 reload: true
             }),
         ],
-
     };
+
     if (!devMode) {
         mods = {
             ...mods,
             plugins: [
                 ...mods.plugins,
-                new CompressionPlugin() // GZ compression
+                new CompressionPlugin() // Enable gzip compression in production
             ],
             optimization: {
                 minimize: true,
