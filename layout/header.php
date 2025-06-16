@@ -42,7 +42,7 @@
                                         </div>
                                         <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                                                 <div class="offcanvas-header xl:!hidden lg:!hidden flex items-center justify-between flex-row p-6">
-                                                        <h3 class="!text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">Sandbox</h3>
+                                                        <h3 class="!text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">Tailwind</h3>
                                                         <button type="button"
                                                                 class="btn-close btn-close-white !mr-[-0.75rem] m-0 p-0 leading-none !text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:text-white before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:!flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)]  "
                                                                 data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -303,8 +303,10 @@
                                                                                                 </li>
                                                                                                 <li class="xl:!px-[15px] xl:!mt-[20px] lg:!px-[15px] lg:!mt-[20px]"><a class="dropdown-item"
                                                                                                                 href="./docs/blocks/pricing.html">
-                                                                                                                <div class="rounded img-svg hidden xl:block lg:block p-4 xl:!mb-2 lg:!mb-2"><img
-                                                                                                                                class="rounded-none" src="./assets/img/demos/block13.svg" alt="image"></div>
+                                                                                                                <div class="rounded img-svg hidden xl:block lg:block p-4 xl:!mb-2 lg:!mb-2">
+                                                                                                                        <img
+                                                                                                                                class="rounded-none" src="./assets/img/demos/block13.svg" alt="image">
+                                                                                                                </div>
                                                                                                                 <span>Pricing</span>
                                                                                                         </a>
                                                                                                 </li>

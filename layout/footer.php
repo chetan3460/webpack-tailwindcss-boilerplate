@@ -2,16 +2,7 @@
 
   <footer class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
   	<div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
-  		<div class="xl:!flex lg:!flex flex-row xl:!items-center lg:!items-center">
-  			<h3
-  				class="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-6 xl:!mb-0 lg:!mb-0 lg:!pr-40 xl:!pr-60 xxl:!pr-[22.5rem] !text-white">
-  				Join our community by using our services and grow your business.</h3>
-  			<a href="#"
-  				class="btn btn-yellow !text-white !bg-[#fab758] border-[#fab758] hover:text-white hover:bg-[#fab758] hover:!border-[#fab758] active:text-white active:bg-[#fab758] active:border-[#fab758] disabled:text-white disabled:bg-[#fab758] disabled:border-[#fab758] !text-[.85rem] !rounded-[50rem]  !mb-0 whitespace-nowrap !tracking-[normal]">Try
-  				It For Free</a>
-  		</div>
-  		<!--/div -->
-  		<hr class="!mt-[3rem] !mb-[3.5rem] opacity-100 m-[4.5rem_0] border-t border-solid border-[rgba(164,174,198,.2)]">
+
   		<div class="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
   			<div
   				class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
@@ -125,7 +116,6 @@
 	$base_url = get_base_url();
 	$version = get_version();
 	?>
-
   <!-- <script src="./dist/js/app-1.2.min.js"></script> -->
 
   <!-- <script src="</?php echo $base_url . '/dist/js/app.min.js?v=' . $version; ?>"></script> -->
