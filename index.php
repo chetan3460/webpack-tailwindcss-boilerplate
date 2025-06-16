@@ -620,31 +620,5 @@
 
 
 
-<section>
-    <div class="container">
-
-        <div class="grid grid-cols-12 gap-25 3xl:-mx-110">
-
-            <figure class="xxl:col-span-4 md:col-span-6 col-span-12 group overlay overlay-1 hover-scale rounded group"><a href="#"> <img src="./assets/img/photos/p4.jpg" srcset="./assets/img/photos/p4@2x.jpg 2x" alt="image"></a>
-                <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                    <h5 class="from-top  !mb-0 absolute w-full translate-y-[-80%] p-[.75rem_1rem] left-0 top-2/4">Some Title</h5>
-                </figcaption>
-            </figure>
-            <figure class="xxl:col-span-4 md:col-span-6 col-span-12 group overlay overlay-2 hover-scale color rounded group"><a class="!relative block z-[3] cursor-pointer inset-0" href="#"> <img src="./assets/img/photos/p5.jpg" srcset="./assets/img/photos/p5@2x.jpg 2x" alt="image"></a>
-                <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                    <h5 class="from-top !mb-1">Some Title</h5>
-                    <p class="from-bottom">Some Description</p>
-                </figcaption>
-            </figure>
-            <figure class="xxl:col-span-4 md:col-span-6 col-span-12 group overlay overlay-3 !text-left overlay-gradient-2 hover-scale rounded group"><a class="!relative block z-[3] cursor-pointer inset-0" href="#"> <img src="./assets/img/photos/p6.jpg" srcset="./assets/img/photos/p6@2x.jpg 2x" alt="image"></a>
-                <figcaption>
-                    <h5 class="from-left !mb-1">Some Title</h5>
-                    <p class="from-left  !mb-0">Some Description</p>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-</section>
-
 
 <?php include('layout/footer.php'); ?>
